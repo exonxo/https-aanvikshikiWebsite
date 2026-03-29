@@ -1,0 +1,163 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* ── Colors ── */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+
+  /* ── Typography ── */
+  --font-sans: var(--font-family-sans);
+  --font-serif: var(--font-family-serif);
+  --font-mono: var(--font-family-mono);
+
+  /* ── Radius ── */
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 4px);
+  --radius-xl: calc(var(--radius) + 8px);
+
+  /* ── Layout ── */
+  --width-container: 80rem;
+}
+
+/* ── Light mode ── */
+:root {
+  color-scheme: light;
+
+  --font-family-sans: 'IBM Plex Sans', sans-serif;
+  --font-family-serif: 'IBM Plex Sans', sans-serif;
+  --font-family-mono: 'IBM Plex Mono', monospace;
+
+  --background: #FFFFFF;
+  --foreground: #1e293b;
+  --card: #FFFFFF;
+  --card-foreground: #1e293b;
+  --popover: #ffffff;
+  --popover-foreground: #1e293b;
+  --primary: #0F62FE;
+  --primary-foreground: #ffffff;
+  --secondary: #e5e7eb;
+  --secondary-foreground: #374151;
+  --muted: #F1F5F9;
+  --muted-foreground: #64748B;
+  --accent: #DBEAFE;
+  --accent-foreground: #374151;
+  --destructive: #ef4444;
+  --destructive-foreground: #ffffff;
+  --border: #E2E8F0;
+  --input: #d1d5db;
+  --ring: #0F62FE;
+  --radius: 0rem;
+
+  --chart-1: #0F62FE;
+  --chart-2: #0043CE;
+  --chart-3: #002D9C;
+  --chart-4: #001D6C;
+  --chart-5: #001141;
+
+  --sidebar: #f3f4f6;
+  --sidebar-foreground: #1e293b;
+  --sidebar-primary: #0F62FE;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #DBEAFE;
+  --sidebar-accent-foreground: #374151;
+  --sidebar-border: #d1d5db;
+  --sidebar-ring: #0F62FE;
+}
+
+/* ── Base ── */
+body {
+  font-family: var(--font-family-sans);
+  background-color: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Animations ── */
+
+@keyframes background-gradient {
+  0%, 100% { transform: translate(0, 0); }
+  25%  { transform: translate(calc(var(--tx-1) * 100px), calc(var(--ty-1) * 100px)); }
+  50%  { transform: translate(calc(var(--tx-2) * 100px), calc(var(--ty-2) * 100px)); }
+  75%  { transform: translate(calc(var(--tx-3) * 100px), calc(var(--ty-3) * 100px)); }
+}
+
+@keyframes fade-in-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes scale-in {
+  from { opacity: 0; transform: scale(0.95); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+@utility animate-background-gradient {
+  animation: background-gradient calc(var(--background-gradient-speed, 0.2s) * 10) ease infinite;
+}
+
+@utility animate-fade-in-up {
+  animation: fade-in-up 0.5s ease forwards;
+}
+
+@utility animate-scale-in {
+  animation: scale-in 0.5s ease forwards;
+}
+
+@utility fade-top-lg {
+  mask-image: linear-gradient(to bottom, transparent 0%, black 40%);
+}
+
+@utility max-w-container {
+  max-width: var(--width-container);
+}
+
+/* ── Accordion ── */
+@keyframes accordion-down {
+  from { height: 0; }
+  to   { height: var(--radix-accordion-content-height); }
+}
+
+@keyframes accordion-up {
+  from { height: var(--radix-accordion-content-height); }
+  to   { height: 0; }
+}
+
+@utility animate-accordion-down {
+  animation: accordion-down 0.2s ease-out;
+}
+
+@utility animate-accordion-up {
+  animation: accordion-up 0.2s ease-out;
+}

@@ -1,0 +1,154 @@
+Here's the elevated, detailed prompt for this effect:
+
+🌊 Scroll-Triggered Full-Page Theme Takeover — Easecare Section
+CONCEPT When the user scrolls into the Easecare section, the entire page undergoes a living, breathing theme transformation — as if Easecare itself is reaching out and repainting the world around it. The UI doesn't just highlight the product; the product claims the UI.
+
+THE EFFECT — WHAT SHOULD HAPPEN
+Trigger: As soon as the Easecare section crosses a threshold of 30% visibility in the viewport (via IntersectionObserver with threshold: 0.3), initiate the full-page theme takeover.
+
+Reverse: When the section scrolls out of view (below or above), the page gracefully restores its default theme.
+
+PHASE 1 — FULL-PAGE COLOR TRANSFORMATION
+All CSS custom properties on :root transition simultaneously using a class swap (body.easecare-active). Use CSS transitions on the variables via a wrapper class.
+
+Default theme → Easecare theme mapping:
+
+css
+/* Default */
+--bg-primary: #0f0f0f;
+--bg-surface: #1a1a1a;
+--text-primary: #ffffff;
+--text-muted: #888888;
+--accent: #your-default-accent;
+--border-color: rgba(255,255,255,0.1);
+
+/* Easecare Takeover */
+--bg-primary: #032A35;          /* Deep teal-black ocean */
+--bg-surface: #053D4E;          /* Mid teal surface */
+--text-primary: #E8F9FD;        /* Soft cyan-white */
+--text-muted: #7ECFDF;          /* Muted cyan */
+--accent: #06AED4;              /* Easecare primary cyan */
+--accent-glow: rgba(6,174,212,0.35);
+--border-color: rgba(6,174,212,0.2);
+--glass-bg: rgba(6,174,212,0.07);
+--glass-border: rgba(6,174,212,0.25);
+All elements using these tokens repaint automatically. Transition the body background directly:
+
+css
+body {
+  transition: background-color 800ms cubic-bezier(0.4, 0, 0.2, 1),
+              color 800ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+PHASE 2 — THE AMBIENT TAKEOVER ATMOSPHERE
+As the theme shifts, inject a full-page ambient layer that sits behind all content but in front of the base background. This layer reinforces the Easecare world:
+
+Cyan light bloom: A large, soft radial gradient orb (800px × 800px) anchored to where the Easecare section sits on the page. It bleeds upward and downward, tinting sections above and below.
+
+css
+.easecare-ambient-orb {
+  position: fixed;
+  width: 900px;
+  height: 900px;
+  background: radial-gradient(circle, rgba(6,174,212,0.18) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 1000ms ease;
+  animation: orb-breathe 6s ease-in-out infinite;
+}
+
+body.easecare-active .easecare-ambient-orb {
+  opacity: 1;
+}
+
+@keyframes orb-breathe {
+  0%, 100% { transform: translate(-50%, -50%) scale(1); }
+  50% { transform: translate(-50%, -50%) scale(1.08); }
+}
+Particle shimmer (optional): Spawn 12–16 tiny cyan particles (3–6px dots) that float upward slowly with randomized positions and animation delays, like bioluminescent light rising through water.
+
+PHASE 3 — NAVBAR TRANSFORMATION
+The navbar is the most visible indicator of the theme shift — make it feel dramatic:
+
+Background shifts from default glass → deep teal glass (rgba(3,42,53,0.85)) with backdrop-filter: blur(20px)
+The logo or wordmark gets a cyan glow: filter: drop-shadow(0 0 8px rgba(6,174,212,0.6))
+Nav links transition their hover color to 
+#06AED4
+A thin 1px bottom border on the nav animates from the default color → cyan, sweeping left-to-right via a clip-path or scaleX transform animation
+Active nav indicator (underline or dot) glows cyan
+Transition timing: 600ms ease — slightly ahead of the body to feel like the nav "announces" the change first.
+
+PHASE 4 — TYPOGRAPHY RESPONSE
+All headings on the page shift their color toward 
+#E8F9FD (the cool cyan-white)
+Key headings near the Easecare section get a subtle text-shadow: 0 0 40px rgba(6,174,212,0.4) glow
+Gradient text elements (if any) re-map their gradient to cyan spectrum: linear-gradient(135deg, #06AED4, #0ECFFF, #7EE8FA)
+Body text cools in temperature — slightly more blue-tinted
+PHASE 5 — BUTTON & INTERACTIVE ELEMENT RE-SKIN
+When the takeover is active:
+
+All primary buttons shift their background to the Easecare cyan gradient
+Button hover glow shifts to cyan: box-shadow: 0 0 20px rgba(6,174,212,0.5)
+Ghost/outline buttons get a cyan border that pulses subtly (box-shadow animation)
+Form inputs: focus ring turns cyan, with a cyan inner glow
+Scrollbar (if styled): thumb color transitions to a cyan-tinted variant
+PHASE 6 — THE EASECARE SECTION ITSELF — CENTER SPOTLIGHT
+The Easecare section becomes the hero of the viewport during takeover:
+
+Section background: deep layered glass card with the ambient orb directly centered behind it
+A top border "light streak" — a 1px horizontal line at the very top of the section that glows cyan, as if a spotlight is hitting it from above
+Product mockup or illustration inside the section: animate in with a soft scale(0.95 → 1) + opacity(0 → 1) + very gentle upward drift on scroll entry
+Section heading: a staggered character-by-character or word-by-word reveal animation using animation-delay cascade
+Stat/feature items: stagger entrance with 50ms delays, sliding up from 20px below
+PHASE 7 — SCROLL PROGRESS INDICATOR
+Add a subtle cyan progress bar at the very top of the viewport (or along the left edge of the screen) that:
+
+Only appears when easecare-active is true
+Fills from 0% → 100% based on how far the user has scrolled through the Easecare section
+Has a glowing right edge: a bright cyan dot or blur that rides the progress fill
+Fades out completely when the section exits
+PHASE 8 — EXIT ANIMATION (REVERSE TAKEOVER)
+When the Easecare section leaves the viewport:
+
+Don't just snap back — slowly dissolve the takeover over 1000ms
+The ambient orb fades and shrinks: opacity → 0, scale → 0.8
+CSS variable tokens transition back to defaults in the same smooth manner
+The navbar border sweep reverses (right-to-left this time)
+Particles (if implemented) drift upward and fade out before the orb disappears
+The exit should feel like Easecare is "releasing" the page back to its original state — graceful, not abrupt.
+
+IMPLEMENTATION NOTES
+IntersectionObserver setup:
+
+javascript
+const observer = new IntersectionObserver(
+  ([entry]) => {
+    document.body.classList.toggle('easecare-active', entry.isIntersecting);
+  },
+  { threshold: 0.3 }
+);
+observer.observe(document.querySelector('#easecare-section'));
+Performance rules:
+
+Animate ONLY opacity, transform, filter, box-shadow, background-color, color — never width, height, top, left
+Use will-change: transform, opacity on the ambient orb and any heavy animated elements
+Throttle scroll event listeners — use IntersectionObserver instead of raw scroll events wherever possible
+All transitions must respect prefers-reduced-motion — reduce to instant swaps with no motion
+CSS variable transition trick (since CSS variables don't transition natively, bridge with a class swap):
+
+css
+body { transition: background-color 800ms ease, color 600ms ease; }
+body.easecare-active { background-color: var(--ease-bg-primary); color: var(--ease-text-primary); }
+RESULT: The Easecare section doesn't just appear on the page — it becomes the page, wrapping the entire experience in its brand world for as long as it's in focus, then elegantly returning control when the user moves on.
+
+Want me to build this as a live React/HTML artifact with your actual Easecare brand tokens (
+#06AED4, Lexend, Inter) so you can see it working?
+
+
+
+
+

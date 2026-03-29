@@ -1,0 +1,438 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Typography Variables */
+  --text-h1: 60px;
+  --text-h2: 48px;
+  --text-h3: 36px;
+  --text-h4: 20px;
+  --text-base: 16px;
+  --text-sm: 14px;
+  --font-family: 'Inter', sans-serif;
+  --font-size: 16px;
+  
+  /* Font Weights */
+  /* The default font weight for normal text. */
+  --font-weight-normal: 400;
+  /* The default font weight for medium text. */
+  --font-weight-medium: 500;
+  /* The default font weight for semi-bold text. */
+  --font-weight-semibold: 600;
+  
+  /* The default background color for the application. */
+  --background: rgba(255, 255, 255, 1.00);
+  /* The default color for elements or text that appears on top of the background. */
+  --foreground: rgba(16, 24, 40, 1.00);
+  /* The background color for cards, modals, and other containers. */
+  --card: rgba(255, 255, 255, 1.00);
+  /* The default color for text or elements that appear on top of cards, modals and other background containers. */
+  --card-foreground: rgba(16, 24, 40, 1.00);
+  /* The background color for dropdowns and tooltips. */
+  --popover: rgba(16, 24, 40, 1.00);
+  /* The default color for text or elements that appear on top of dropdowns and tooltips. */
+  --popover-foreground: rgba(255, 255, 255, 1.00);
+  /* The primary color used for buttons, links, and other interactive elements. */
+  --primary: rgba(127, 86, 217, 1.00);
+  /* The default color for text or elements that appear on top of primary colored elements. */
+  --primary-foreground: rgba(255, 255, 255, 1.00);
+  /* The secondary color used for secondary(but NOT-DESTRUCTIVE) buttons and interactive elements. */
+  --secondary: rgba(255, 255, 255, 1.00);
+  /* The default color for text or elements that appear on top of secondary colored elements. */
+  --secondary-foreground: rgba(52, 64, 84, 1.00);
+  /* The muted color used for less prominent elements, such as disabled buttons or disabled text. */
+  --muted: rgba(242, 244, 247, 1.00);
+  /* The default color for text or elements that appear on top of muted colored elements. */
+  --muted-foreground: rgba(102, 112, 133, 1.00);
+  /* The accent color used for highlights, links, and other interactive elements. */
+  --accent: rgba(127, 86, 217, 1.00);
+  /* The default color for text or elements that appear on top of accent colored elements. */
+  --accent-foreground: rgba(255, 255, 255, 1.00);
+  /* The color used for background in destructive actions, such as delete buttons or error messages. */
+  --destructive: rgba(0, 0, 0, 0);
+  /* The default color for text or elements that appear on top of destructive colored elements. */
+  --destructive-foreground: rgba(240, 68, 56, 1.00);
+  /* The default border color for elements such as inputs, buttons, and other containers. */
+  --border: rgba(217, 217, 217, 1.00);
+  /* The default background color for input fields once the text has been filled. Should be either transparent or match the input-background. */
+  --input: rgba(255, 255, 255, 1.00);
+  /* The default background color for input fields, text areas, and other input elements. */
+  --input-background: rgba(255, 255, 255, 1.00);
+  /* The color for focus rings, outlines, and other focus indicators. */
+  --ring: rgba(127, 86, 217, 1.00);
+  /* Shadow for small elevations, such as cards or modals. */
+  --elevation-sm: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  /* The color for chart elements, such as a bar or line in a chart. */
+  --chart-1: rgba(127, 86, 217, 1.00);
+  /* The color for another chart element, such as a bar or line in a chart. */
+  --chart-2: rgba(16, 185, 129, 1.00);
+  /* The color for another chart element, such as a bar or line in a chart. */
+  --chart-3: rgba(249, 115, 22, 1.00);
+  /* The color for another chart element, such as a bar or line in a chart. */
+  --chart-4: rgba(239, 68, 68, 1.00);
+  /* The color for another chart element, such as a bar or line in a chart. */
+  --chart-5: rgba(59, 130, 246, 1.00);
+  /* The default border radius for elements such as buttons, tooltip, and other containers. */
+  --radius: 8px;
+  /* The border radius for button elements. */
+  --radius-button: 8px;
+  /* The border radius for card elements. */
+  --radius-card: 12px;
+  /* The background color for sidebars, navigation menus, and other persistent elements. */
+  --sidebar: rgba(0, 0, 0, 0);
+  /* The default color for text or elements that appear on top of sidebars, navigation menus, and other persistent elements. */
+  --sidebar-foreground: rgba(71, 84, 103, 1.00);
+  /* The primary color used for buttons, links, and other interactive elements in sidebars and navigation menus. */
+  --sidebar-primary: rgba(127, 86, 217, 1.00);
+  /* The default color for text or elements that appear on top of primary colored elements in sidebars and navigation menus. */
+  --sidebar-primary-foreground: rgba(255, 255, 255, 1.00);
+  /* The accent color used for highlights, links, and other interactive elements in sidebars and navigation menus. */
+  --sidebar-accent: rgba(127, 86, 217, 1.00);
+  /* The default color for text or elements that appear on top of accent colored elements in sidebars and navigation menus. */
+  --sidebar-accent-foreground: rgba(255, 255, 255, 1.00);
+  /* The default border color for elements in sidebars and navigation menus. */
+  --sidebar-border: rgba(217, 217, 217, 1.00);
+  /* The default color for focus rings, outlines, and other focus indicators in sidebars and navigation menus. */
+  --sidebar-ring: rgba(127, 86, 217, 1.00);
+
+  /* Liquid Glass Design System */
+  --glass-bg: rgba(255, 255, 255, 0.06);
+  --glass-bg-hover: rgba(255, 255, 255, 0.12);
+  --glass-border: rgba(255, 255, 255, 0.12);
+  --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  --glass-blur: blur(16px);
+  --glass-highlight: rgba(255, 255, 255, 0.18);
+  --glass-radius: 16px;
+
+  /* Brand Colors */
+  --brand-orange-start: #FF9937;
+  --brand-orange-end: #FE6A2E;
+  --brand-gradient: linear-gradient(135deg, var(--brand-orange-start), var(--brand-orange-end));
+
+  /* Animation Timing Tokens */
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --ease-out: cubic-bezier(0, 0, 0.2, 1);
+  --duration-fast: 150ms;
+  --duration-base: 250ms;
+  --duration-slow: 400ms;
+  --duration-enter: 500ms;
+}
+
+.dark {
+  --background: rgba(16, 24, 40, 1.00);
+  --foreground: rgba(255, 255, 255, 1.00);
+  --card: rgba(16, 24, 40, 1.00);
+  --card-foreground: rgba(255, 255, 255, 1.00);
+  --popover: rgba(16, 24, 40, 1.00);
+  --popover-foreground: rgba(255, 255, 255, 1.00);
+  --primary: rgba(127, 86, 217, 1.00);
+  --primary-foreground: rgba(255, 255, 255, 1.00);
+  --secondary: rgba(52, 64, 84, 1.00);
+  --secondary-foreground: rgba(255, 255, 255, 1.00);
+  --muted: rgba(52, 64, 84, 1.00);
+  --muted-foreground: rgba(102, 112, 133, 1.00);
+  --accent: rgba(127, 86, 217, 1.00);
+  --accent-foreground: rgba(255, 255, 255, 1.00);
+  --destructive: rgba(240, 68, 56, 1.00);
+  --destructive-foreground: rgba(255, 255, 255, 1.00);
+  --border: rgba(52, 64, 84, 1.00);
+  --input: rgba(52, 64, 84, 1.00);
+  --ring: rgba(127, 86, 217, 1.00);
+  --sidebar: rgba(16, 24, 40, 1.00);
+  --sidebar-foreground: rgba(255, 255, 255, 1.00);
+  --sidebar-primary: rgba(127, 86, 217, 1.00);
+  --sidebar-primary-foreground: rgba(255, 255, 255, 1.00);
+  --sidebar-accent: rgba(52, 64, 84, 1.00);
+  --sidebar-accent-foreground: rgba(255, 255, 255, 1.00);
+  --sidebar-border: rgba(52, 64, 84, 1.00);
+  --sidebar-ring: rgba(127, 86, 217, 1.00);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-family);
+  }
+}
+
+h1 {
+  font-family: var(--font-family);
+  font-size: var(--text-h1);
+  font-weight: var(--font-weight-normal);
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: var(--font-family);
+  font-size: var(--text-h2);
+  font-weight: var(--font-weight-normal);
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: var(--font-family);
+  font-size: var(--text-h3);
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.5;
+}
+
+h4 {
+  font-family: var(--font-family);
+  font-size: var(--text-h4);
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.5;
+}
+
+p {
+  font-family: var(--font-family);
+  font-size: var(--text-base);
+  font-weight: var(--font-weight-normal);
+  line-height: 1.5;
+}
+
+span {
+  font-family: var(--font-family);
+  font-size: var(--text-base);
+  font-weight: var(--font-weight-normal);
+  line-height: 1.5;
+}
+
+label {
+  font-family: var(--font-family);
+  font-size: var(--text-sm);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.5;
+}
+
+button {
+  font-family: var(--font-family);
+  font-size: var(--text-base);
+  font-weight: var(--font-weight-medium);
+  line-height: 1.5;
+}
+
+input {
+  font-family: var(--font-family);
+  font-size: var(--text-base);
+  font-weight: var(--font-weight-normal);
+  line-height: 1.5;
+}
+
+html {
+  font-size: var(--font-size);
+  scroll-behavior: smooth;
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ═══════════════════════════════════════════════
+   EaseCare Theme Takeover System
+   ═══════════════════════════════════════════════ */
+
+/* Body transition layer — smooth color morphing */
+body {
+  transition: background-color 1200ms cubic-bezier(0.4, 0, 0.2, 1),
+              color 1000ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body.easecare-active {
+  background-color: #032A35 !important;
+  color: #E8F9FD !important;
+}
+
+/* Ambient breathing orb */
+.easecare-ambient-orb {
+  position: fixed;
+  width: 900px;
+  height: 900px;
+  background: radial-gradient(circle, rgba(6,174,212,0.18) 0%, transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.85);
+  z-index: 0;
+  opacity: 0;
+  transition: opacity 1200ms ease, transform 1200ms cubic-bezier(0.4, 0, 0.2, 1);
+  will-change: transform, opacity;
+  animation: orb-breathe 6s ease-in-out infinite;
+}
+
+body.easecare-active .easecare-ambient-orb {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+@keyframes orb-breathe {
+  0%, 100% { transform: translate(-50%, -50%) scale(1); }
+  50% { transform: translate(-50%, -50%) scale(1.08); }
+}
+
+/* Floating bioluminescent particles */
+.easecare-particle {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  background: radial-gradient(circle, rgba(6,174,212,0.8), rgba(14,207,255,0.4));
+  box-shadow: 0 0 6px rgba(6,174,212,0.6);
+  will-change: auto;
+  animation: none;
+  transition: opacity 800ms ease, visibility 800ms ease;
+}
+
+body.easecare-active .easecare-particle {
+  visibility: visible;
+  opacity: 1;
+  animation: particle-float linear infinite;
+  will-change: transform;
+}
+
+@keyframes particle-float {
+  0% { transform: translateY(0) translateX(0); }
+  100% { transform: translateY(-100vh) translateX(20px); }
+}
+
+/* Scroll progress bar */
+.easecare-progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 3px;
+  z-index: 9999;
+  opacity: 0;
+  transition: opacity 800ms ease;
+  background: linear-gradient(90deg, #06AED4, #0ECFFF);
+  will-change: width;
+}
+
+body.easecare-active .easecare-progress-bar {
+  opacity: 1;
+}
+
+.easecare-progress-glow {
+  position: absolute;
+  right: -4px;
+  top: -3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #0ECFFF;
+  box-shadow: 0 0 12px 4px rgba(14,207,255,0.6);
+}
+
+/* Navbar takeover */
+body.easecare-active .navbar-takeover {
+  background: rgba(3,42,53,0.85) !important;
+  border-bottom-color: rgba(6,174,212,0.2) !important;
+  transition: background 1000ms cubic-bezier(0.4, 0, 0.2, 1),
+              border-bottom-color 1000ms cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+body.easecare-active .navbar-takeover .nav-logo {
+  filter: drop-shadow(0 0 8px rgba(6,174,212,0.6));
+  transition: filter 800ms ease;
+}
+
+body.easecare-active .navbar-takeover .nav-cta-button {
+  background: linear-gradient(135deg, #06AED4, #0ECFFF) !important;
+  box-shadow: 0 0 20px rgba(6,174,212,0.3) !important;
+}
+
+/* Navbar border sweep animation */
+.navbar-border-sweep {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, #06AED4, transparent);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 800ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body.easecare-active .navbar-border-sweep {
+  transform: scaleX(1);
+}
+
+/* Section spotlight border */
+body.easecare-active #easecare-spotlight-border {
+  opacity: 1 !important;
+  transition: opacity 1000ms ease;
+}
+
+/* Section background takeover */
+body.easecare-active #easecare-section {
+  background: #032A35 !important;
+  transition: background 1200ms cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Page wrapper background transition */
+body.easecare-active .min-h-screen {
+  background-color: #032A35 !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .easecare-ambient-orb,
+  .easecare-particle {
+    animation: none !important;
+  }
+  body, body.easecare-active {
+    transition: none !important;
+  }
+}

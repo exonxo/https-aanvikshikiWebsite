@@ -18,7 +18,7 @@
           "fill": "#FFFFFF",
           "stroke": {
             "thickness": 1,
-            "fill": "#E2E8F0"
+            "fill": "#F3F4F6"
           },
           "padding": 24,
           "justifyContent": "space_between",
@@ -45,18 +45,18 @@
                   "type": "text",
                   "id": "htOBy",
                   "name": "nl1",
-                  "fill": "#FF5C00",
-                  "content": "Home",
+                  "fill": "#666666",
+                  "content": "Services",
                   "fontFamily": "Funnel Sans",
                   "fontSize": 14,
-                  "fontWeight": "600"
+                  "fontWeight": "normal"
                 },
                 {
                   "type": "text",
                   "id": "dAphj",
                   "name": "nl2",
                   "fill": "#666666",
-                  "content": "Services",
+                  "content": "Approach",
                   "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -66,7 +66,7 @@
                   "id": "t80Nx",
                   "name": "nl3",
                   "fill": "#666666",
-                  "content": "Approach",
+                  "content": "EASE",
                   "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -76,7 +76,7 @@
                   "id": "qwkkx",
                   "name": "nl4",
                   "fill": "#666666",
-                  "content": "EASE",
+                  "content": "About",
                   "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -86,7 +86,7 @@
                   "id": "9Szvt",
                   "name": "nl5",
                   "fill": "#666666",
-                  "content": "Contact",
+                  "content": "Work",
                   "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -110,7 +110,7 @@
                   "id": "wruSN",
                   "name": "nCtaT",
                   "fill": "#FFFFFF",
-                  "content": "Start a Conversation",
+                  "content": "Contact",
                   "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "500"
@@ -128,7 +128,7 @@
           "fill": "#FFFFFF",
           "stroke": {
             "thickness": 1,
-            "fill": "#E2E8F0"
+            "fill": "#F3F4F6"
           },
           "gap": 24,
           "padding": 80,
@@ -213,7 +213,7 @@
                       "cornerRadius": 9999,
                       "stroke": {
                         "thickness": 1,
-                        "fill": "#E2E8F0"
+                        "fill": "#F3F4F6"
                       },
                       "padding": [
                         12,
@@ -309,7 +309,7 @@
           "fill": "#FFFFFF",
           "stroke": {
             "thickness": 1,
-            "fill": "#E2E8F0"
+            "fill": "#F3F4F6"
           },
           "layout": "vertical",
           "children": [
@@ -346,7 +346,7 @@
               "height": "fill_container",
               "stroke": {
                 "thickness": 1,
-                "fill": "#E2E8F0"
+                "fill": "#F3F4F6"
               },
               "gap": 80,
               "padding": 80,
@@ -425,7 +425,7 @@
               "height": "fill_container",
               "stroke": {
                 "thickness": 1,
-                "fill": "#E2E8F0"
+                "fill": "#F3F4F6"
               },
               "gap": 80,
               "padding": 80,
@@ -504,7 +504,7 @@
               "height": "fill_container",
               "stroke": {
                 "thickness": 1,
-                "fill": "#E2E8F0"
+                "fill": "#F3F4F6"
               },
               "gap": 80,
               "padding": 80,
@@ -586,7 +586,7 @@
             "thickness": {
               "bottom": 1
             },
-            "fill": "#E2E8F0"
+            "fill": "#F3F4F6"
           },
           "layout": "vertical",
           "gap": 48,
@@ -684,7 +684,7 @@
                     "thickness": 0,
                     "fill": {
                       "type": "color",
-                      "color": "#E2E8F0",
+                      "color": "#F3F4F6",
                       "enabled": false
                     }
                   },
@@ -747,7 +747,7 @@
                     "thickness": 0,
                     "fill": {
                       "type": "color",
-                      "color": "#E2E8F0",
+                      "color": "#F3F4F6",
                       "enabled": false
                     }
                   },
@@ -814,7 +814,7 @@
           "fill": "#F7F8FA",
           "stroke": {
             "thickness": 1,
-            "fill": "#E2E8F0"
+            "fill": "#F3F4F6"
           },
           "layout": "vertical",
           "gap": 16,
@@ -1545,7 +1545,7 @@
             "thickness": {
               "bottom": 1
             },
-            "fill": "#E2E8F0"
+            "fill": "#F3F4F6"
           },
           "gap": 64,
           "padding": [
@@ -1618,7 +1618,7 @@
               },
               "stroke": {
                 "thickness": 1,
-                "fill": "#E2E8F0"
+                "fill": "#F3F4F6"
               }
             }
           ]
@@ -1634,7 +1634,7 @@
             "thickness": {
               "bottom": 1
             },
-            "fill": "#E2E8F0"
+            "fill": "#F3F4F6"
           },
           "layout": "vertical",
           "gap": 20,
@@ -1984,7 +1984,7 @@
                               "fill": "#ffffff",
                               "stroke": {
                                 "thickness": 1,
-                                "fill": "#E2E8F0"
+                                "fill": "#F3F4F6"
                               },
                               "padding": [
                                 0,
@@ -2030,7 +2030,7 @@
                               "fill": "#ffffff",
                               "stroke": {
                                 "thickness": 1,
-                                "fill": "#E2E8F0"
+                                "fill": "#F3F4F6"
                               },
                               "padding": [
                                 0,
@@ -2079,7 +2079,7 @@
                           "fill": "#ffffff",
                           "stroke": {
                             "thickness": 1,
-                            "fill": "#E2E8F0"
+                            "fill": "#F3F4F6"
                           },
                           "padding": [
                             0,
@@ -2126,7 +2126,7 @@
                           "fill": "#ffffff",
                           "stroke": {
                             "thickness": 1,
-                            "fill": "#E2E8F0"
+                            "fill": "#F3F4F6"
                           },
                           "padding": [
                             0,
@@ -2183,7 +2183,7 @@
                           "fill": "#ffffff",
                           "stroke": {
                             "thickness": 1,
-                            "fill": "#E2E8F0"
+                            "fill": "#F3F4F6"
                           },
                           "layout": "vertical",
                           "padding": 12,
@@ -2274,7 +2274,7 @@
                       "name": "ftLogoT",
                       "fill": "#ffffffff",
                       "content": "Aanvikshiki",
-                      "fontFamily": "Inter",
+                      "fontFamily": "Newsreader",
                       "fontSize": 16,
                       "fontWeight": "600"
                     },
@@ -2287,7 +2287,7 @@
                       "width": "fill_container",
                       "content": "Structured thinking. Applied AI.",
                       "lineHeight": 1.5,
-                      "fontFamily": "Inter",
+                      "fontFamily": "Geist",
                       "fontSize": 13,
                       "fontWeight": "normal"
                     }
@@ -2312,7 +2312,7 @@
                           "name": "ftC1T",
                           "fill": "#ffffffff",
                           "content": "Services",
-                          "fontFamily": "Inter",
+                          "fontFamily": "Funnel Sans",
                           "fontSize": 13,
                           "fontWeight": "600"
                         },
@@ -2322,7 +2322,7 @@
                           "name": "ftC1L1",
                           "fill": "#666666",
                           "content": "Strategic Advisory",
-                          "fontFamily": "Inter",
+                          "fontFamily": "Geist",
                           "fontSize": 13,
                           "fontWeight": "normal"
                         },
@@ -2332,7 +2332,7 @@
                           "name": "ftC1L2",
                           "fill": "#666666",
                           "content": "AI Strategy",
-                          "fontFamily": "Inter",
+                          "fontFamily": "Geist",
                           "fontSize": 13,
                           "fontWeight": "normal"
                         }
@@ -2349,7 +2349,7 @@
               "width": "fill_container",
               "stroke": {
                 "thickness": 1,
-                "fill": "#E2E8F0"
+                "fill": "#333333"
               },
               "padding": [
                 16,
@@ -2366,7 +2366,7 @@
                   "name": "ftCopyT",
                   "fill": "#888888",
                   "content": "© 2026 Aanvikshiki. All rights reserved.",
-                  "fontFamily": "Inter",
+                  "fontFamily": "Geist",
                   "fontSize": 12,
                   "fontWeight": "normal"
                 }
@@ -2393,7 +2393,7 @@
           "fill": "#FFFFFF",
           "stroke": {
             "thickness": 1,
-            "fill": "#E2E8F0"
+            "fill": "#F3F4F6"
           },
           "padding": 24,
           "justifyContent": "space_between",
@@ -2420,16 +2420,6 @@
                   "type": "text",
                   "id": "ZBMAF",
                   "name": "nl1",
-                  "fill": "#666666",
-                  "content": "Home",
-                  "fontFamily": "Funnel Sans",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "GOAF2",
-                  "name": "nl2",
                   "fill": "#FF5C00",
                   "content": "Services",
                   "fontFamily": "Funnel Sans",
@@ -2438,10 +2428,20 @@
                 },
                 {
                   "type": "text",
+                  "id": "GOAF2",
+                  "name": "nl2",
+                  "fill": "#666666",
+                  "content": "Approach",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
                   "id": "FGDgx",
                   "name": "nl3",
                   "fill": "#666666",
-                  "content": "Approach",
+                  "content": "EASE",
                   "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -2451,7 +2451,7 @@
                   "id": "qDGJi",
                   "name": "nl4",
                   "fill": "#666666",
-                  "content": "EASE",
+                  "content": "About",
                   "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -2461,7 +2461,7 @@
                   "id": "jPFjA",
                   "name": "nl5",
                   "fill": "#666666",
-                  "content": "Contact",
+                  "content": "Work",
                   "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -2485,7 +2485,7 @@
                   "id": "giPoX",
                   "name": "nCtaT",
                   "fill": "#FFFFFF",
-                  "content": "Start a Conversation",
+                  "content": "Contact",
                   "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "500"
@@ -2502,7 +2502,7 @@
           "fill": "#FFFFFF",
           "stroke": {
             "thickness": 1,
-            "fill": "#E2E8F0"
+            "fill": "#F3F4F6"
           },
           "layout": "vertical",
           "gap": 16,
@@ -2552,7 +2552,7 @@
           "fill": "#FFFFFF",
           "stroke": {
             "thickness": 1,
-            "fill": "#E2E8F0"
+            "fill": "#F3F4F6"
           },
           "layout": "vertical",
           "gap": 12,
@@ -2643,7 +2643,7 @@
           "fill": "#F7F8FA",
           "stroke": {
             "thickness": 1,
-            "fill": "#E2E8F0"
+            "fill": "#F3F4F6"
           },
           "layout": "vertical",
           "gap": 12,
@@ -2734,7 +2734,7 @@
           "fill": "#FFFFFF",
           "stroke": {
             "thickness": 1,
-            "fill": "#E2E8F0"
+            "fill": "#F3F4F6"
           },
           "layout": "vertical",
           "gap": 12,
@@ -2825,7 +2825,7 @@
           "fill": "#F7F8FA",
           "stroke": {
             "thickness": 1,
-            "fill": "#E2E8F0"
+            "fill": "#F3F4F6"
           },
           "layout": "vertical",
           "gap": 12,
@@ -2916,7 +2916,7 @@
           "fill": "#FFFFFF",
           "stroke": {
             "thickness": 1,
-            "fill": "#E2E8F0"
+            "fill": "#F3F4F6"
           },
           "layout": "vertical",
           "gap": 12,
@@ -3045,6 +3045,137 @@
               ]
             }
           ]
+        },
+        {
+          "type": "frame",
+          "id": "cG5cx",
+          "name": "footer2",
+          "width": "fill_container",
+          "fill": "#121212ff",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "SkhQ3",
+              "name": "ftTop",
+              "width": "fill_container",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "PspTg",
+                  "name": "ftLogo",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "9wyo5",
+                      "name": "ftLogoT",
+                      "fill": "#ffffffff",
+                      "content": "Aanvikshiki",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "09wDq",
+                      "name": "ftTagline",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Structured thinking. Applied AI.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "7aJqa",
+                  "name": "ftLinks",
+                  "gap": 64,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "lfsJ2",
+                      "name": "ftCol1",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "xkGRD",
+                          "name": "ftC1T",
+                          "fill": "#ffffffff",
+                          "content": "Services",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Ad8Tv",
+                          "name": "ftC1L1",
+                          "fill": "#666666",
+                          "content": "Strategic Advisory",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "Z8uJ9",
+                          "name": "ftC1L2",
+                          "fill": "#666666",
+                          "content": "AI Strategy",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "idPCk",
+              "name": "ftCopy",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#333333"
+              },
+              "padding": [
+                16,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bAryQ",
+                  "name": "ftCopyT",
+                  "fill": "#888888",
+                  "content": "© 2026 Aanvikshiki. All rights reserved.",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -3065,7 +3196,7 @@
           "fill": "#FFFFFF",
           "stroke": {
             "thickness": 1,
-            "fill": "#E2E8F0"
+            "fill": "#F3F4F6"
           },
           "padding": 24,
           "justifyContent": "space_between",
@@ -3093,7 +3224,7 @@
                   "id": "Vp3Pd",
                   "name": "nl1",
                   "fill": "#666666",
-                  "content": "Home",
+                  "content": "Services",
                   "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -3102,16 +3233,6 @@
                   "type": "text",
                   "id": "Vt0ml",
                   "name": "nl2",
-                  "fill": "#666666",
-                  "content": "Services",
-                  "fontFamily": "Funnel Sans",
-                  "fontSize": 14,
-                  "fontWeight": "normal"
-                },
-                {
-                  "type": "text",
-                  "id": "zQbJb",
-                  "name": "nl3",
                   "fill": "#FF5C00",
                   "content": "Approach",
                   "fontFamily": "Funnel Sans",
@@ -3120,10 +3241,20 @@
                 },
                 {
                   "type": "text",
+                  "id": "zQbJb",
+                  "name": "nl3",
+                  "fill": "#666666",
+                  "content": "EASE",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
                   "id": "46RV0",
                   "name": "nl4",
                   "fill": "#666666",
-                  "content": "EASE",
+                  "content": "About",
                   "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -3133,7 +3264,7 @@
                   "id": "zfxpJ",
                   "name": "nl5",
                   "fill": "#666666",
-                  "content": "Contact",
+                  "content": "Work",
                   "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
@@ -3157,7 +3288,7 @@
                   "id": "yqFmt",
                   "name": "nCtaT",
                   "fill": "#FFFFFF",
-                  "content": "Start a Conversation",
+                  "content": "Contact",
                   "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "500"
@@ -3174,7 +3305,7 @@
           "fill": "#FFFFFF",
           "stroke": {
             "thickness": 1,
-            "fill": "#E2E8F0"
+            "fill": "#F3F4F6"
           },
           "layout": "vertical",
           "gap": 16,
@@ -3184,7 +3315,7 @@
               "type": "text",
               "id": "xACxc",
               "name": "hLb",
-              "fill": "#888888",
+              "fill": "#FF5C00",
               "content": "HOW WE THINK",
               "fontFamily": "Funnel Sans",
               "fontSize": 11,
@@ -3226,7 +3357,7 @@
             "thickness": {
               "bottom": 1
             },
-            "fill": "#E2E8F0"
+            "fill": "#F3F4F6"
           },
           "layout": "vertical",
           "gap": 32,
@@ -3323,7 +3454,7 @@
           "fill": "#FFFFFF",
           "stroke": {
             "thickness": 1,
-            "fill": "#E2E8F0"
+            "fill": "#F3F4F6"
           },
           "gap": 48,
           "padding": 60,
@@ -3409,7 +3540,7 @@
                       "fill": "#F7F8FA",
                       "stroke": {
                         "thickness": 1,
-                        "fill": "#E2E8F0"
+                        "fill": "#F3F4F6"
                       },
                       "layout": "vertical",
                       "gap": 8,
@@ -3551,7 +3682,7 @@
             "thickness": {
               "bottom": 1
             },
-            "fill": "#E2E8F0"
+            "fill": "#F3F4F6"
           },
           "gap": 48,
           "padding": 60,
@@ -3644,7 +3775,7 @@
                       "fill": "#F7F8FA",
                       "stroke": {
                         "thickness": 1,
-                        "fill": "#E2E8F0"
+                        "fill": "#F3F4F6"
                       },
                       "layout": "vertical",
                       "gap": 10,
@@ -3783,7 +3914,7 @@
             "thickness": {
               "bottom": 1
             },
-            "fill": "#E2E8F0"
+            "fill": "#F3F4F6"
           },
           "gap": 48,
           "padding": 60,
@@ -3876,7 +4007,7 @@
                       "fill": "#F7F8FA",
                       "stroke": {
                         "thickness": 1,
-                        "fill": "#E2E8F0"
+                        "fill": "#F3F4F6"
                       },
                       "layout": "vertical",
                       "gap": 10,
@@ -4015,7 +4146,7 @@
             "thickness": {
               "bottom": 1
             },
-            "fill": "#E2E8F0"
+            "fill": "#F3F4F6"
           },
           "gap": 48,
           "padding": 60,
@@ -4109,7 +4240,7 @@
                       "fill": "#F7F8FA",
                       "stroke": {
                         "thickness": 1,
-                        "fill": "#E2E8F0"
+                        "fill": "#F3F4F6"
                       },
                       "layout": "vertical",
                       "gap": 10,
@@ -4328,6 +4459,137 @@
               ]
             }
           ]
+        },
+        {
+          "type": "frame",
+          "id": "eycwy",
+          "name": "footer3",
+          "width": "fill_container",
+          "fill": "#121212ff",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "Bw2Kz",
+              "name": "ftTop",
+              "width": "fill_container",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "5HgEL",
+                  "name": "ftLogo",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ILLRR",
+                      "name": "ftLogoT",
+                      "fill": "#ffffffff",
+                      "content": "Aanvikshiki",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TuEv2",
+                      "name": "ftTagline",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Structured thinking. Applied AI.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "e1UAj",
+                  "name": "ftLinks",
+                  "gap": 64,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "IplUJ",
+                      "name": "ftCol1",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "agIRj",
+                          "name": "ftC1T",
+                          "fill": "#ffffffff",
+                          "content": "Services",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "CUaIx",
+                          "name": "ftC1L1",
+                          "fill": "#666666",
+                          "content": "Strategic Advisory",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "IRP5t",
+                          "name": "ftC1L2",
+                          "fill": "#666666",
+                          "content": "AI Strategy",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "5lTOk",
+              "name": "ftCopy",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#333333"
+              },
+              "padding": [
+                16,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "7NxVw",
+                  "name": "ftCopyT",
+                  "fill": "#888888",
+                  "content": "© 2026 Aanvikshiki. All rights reserved.",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -4367,9 +4629,8 @@
               "fill": "#1A1A1A",
               "content": "Aanvikshiki",
               "fontFamily": "Newsreader",
-              "fontSize": 15,
-              "fontWeight": "600",
-              "letterSpacing": -0.3
+              "fontSize": 16,
+              "fontWeight": "600"
             },
             {
               "type": "frame",
@@ -4429,9 +4690,10 @@
               "type": "frame",
               "id": "3Dror",
               "name": "navBtn",
+              "fill": "#FF5C00",
+              "cornerRadius": 9999,
               "stroke": {
-                "thickness": 1,
-                "fill": "#E2E8F0"
+                "thickness": 0
               },
               "padding": [
                 8,
@@ -4441,11 +4703,11 @@
                 {
                   "type": "text",
                   "id": "sLrvS",
-                  "fill": "#1A1A1A",
+                  "fill": "#FFFFFF",
                   "content": "Contact",
                   "fontFamily": "Funnel Sans",
                   "fontSize": 14,
-                  "fontWeight": "normal"
+                  "fontWeight": "500"
                 }
               ]
             }
@@ -5199,6 +5461,137 @@
               ]
             }
           ]
+        },
+        {
+          "type": "frame",
+          "id": "lIE5u",
+          "name": "footer4",
+          "width": "fill_container",
+          "fill": "#121212ff",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "fwPz0",
+              "name": "ftTop",
+              "width": "fill_container",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "eZ4un",
+                  "name": "ftLogo",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "b7vf3",
+                      "name": "ftLogoT",
+                      "fill": "#ffffffff",
+                      "content": "Aanvikshiki",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Hh030",
+                      "name": "ftTagline",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Structured thinking. Applied AI.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "epZjC",
+                  "name": "ftLinks",
+                  "gap": 64,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "XprLf",
+                      "name": "ftCol1",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "KphDL",
+                          "name": "ftC1T",
+                          "fill": "#ffffffff",
+                          "content": "Services",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "qwlYC",
+                          "name": "ftC1L1",
+                          "fill": "#666666",
+                          "content": "Strategic Advisory",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "QOcvj",
+                          "name": "ftC1L2",
+                          "fill": "#666666",
+                          "content": "AI Strategy",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZkAZx",
+              "name": "ftCopy",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#333333"
+              },
+              "padding": [
+                16,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Z8M5k",
+                  "name": "ftCopyT",
+                  "fill": "#888888",
+                  "content": "© 2026 Aanvikshiki. All rights reserved.",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -5237,10 +5630,9 @@
               "id": "Fc3A3",
               "fill": "#1A1A1A",
               "content": "Aanvikshiki",
-              "fontFamily": "Geist",
-              "fontSize": 15,
-              "fontWeight": "600",
-              "letterSpacing": -0.3
+              "fontFamily": "Newsreader",
+              "fontSize": 16,
+              "fontWeight": "600"
             },
             {
               "type": "frame",
@@ -5254,7 +5646,7 @@
                   "id": "0E4wf",
                   "fill": "#666666",
                   "content": "Services",
-                  "fontFamily": "Geist",
+                  "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
                 },
@@ -5263,7 +5655,7 @@
                   "id": "5xG71",
                   "fill": "#666666",
                   "content": "Approach",
-                  "fontFamily": "Geist",
+                  "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
                 },
@@ -5272,7 +5664,7 @@
                   "id": "ZpEhv",
                   "fill": "#666666",
                   "content": "EASE",
-                  "fontFamily": "Geist",
+                  "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
                 },
@@ -5281,7 +5673,7 @@
                   "id": "ImPBl",
                   "fill": "#666666",
                   "content": "About",
-                  "fontFamily": "Geist",
+                  "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
                 },
@@ -5290,7 +5682,7 @@
                   "id": "Zpthp",
                   "fill": "#666666",
                   "content": "Work",
-                  "fontFamily": "Geist",
+                  "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
                 }
@@ -5312,9 +5704,9 @@
                   "id": "LQIGe",
                   "fill": "#ffffff",
                   "content": "Contact",
-                  "fontFamily": "Geist",
+                  "fontFamily": "Funnel Sans",
                   "fontSize": 14,
-                  "fontWeight": "600"
+                  "fontWeight": "500"
                 }
               ]
             }
@@ -5921,6 +6313,137 @@
               ]
             }
           ]
+        },
+        {
+          "type": "frame",
+          "id": "gMWxQ",
+          "name": "footer5",
+          "width": "fill_container",
+          "fill": "#121212ff",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "C0qCt",
+              "name": "ftTop",
+              "width": "fill_container",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "nftRj",
+                  "name": "ftLogo",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Q57My",
+                      "name": "ftLogoT",
+                      "fill": "#ffffffff",
+                      "content": "Aanvikshiki",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "TFCvS",
+                      "name": "ftTagline",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Structured thinking. Applied AI.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "HGQe1",
+                  "name": "ftLinks",
+                  "gap": 64,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "gJd8V",
+                      "name": "ftCol1",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "mQsKB",
+                          "name": "ftC1T",
+                          "fill": "#ffffffff",
+                          "content": "Services",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "tYx7s",
+                          "name": "ftC1L1",
+                          "fill": "#666666",
+                          "content": "Strategic Advisory",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "wQw50",
+                          "name": "ftC1L2",
+                          "fill": "#666666",
+                          "content": "AI Strategy",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "yjd7D",
+              "name": "ftCopy",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#333333"
+              },
+              "padding": [
+                16,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "OWfrT",
+                  "name": "ftCopyT",
+                  "fill": "#888888",
+                  "content": "© 2026 Aanvikshiki. All rights reserved.",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -5959,10 +6482,9 @@
               "id": "SYH72",
               "fill": "#1A1A1A",
               "content": "Aanvikshiki",
-              "fontFamily": "Geist",
-              "fontSize": 15,
-              "fontWeight": "600",
-              "letterSpacing": -0.3
+              "fontFamily": "Newsreader",
+              "fontSize": 16,
+              "fontWeight": "600"
             },
             {
               "type": "frame",
@@ -5976,7 +6498,7 @@
                   "id": "eTDgq",
                   "fill": "#666666",
                   "content": "Services",
-                  "fontFamily": "Geist",
+                  "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
                 },
@@ -5985,7 +6507,7 @@
                   "id": "nuFGx",
                   "fill": "#666666",
                   "content": "Approach",
-                  "fontFamily": "Geist",
+                  "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
                 },
@@ -5994,7 +6516,7 @@
                   "id": "QOj3y",
                   "fill": "#666666",
                   "content": "EASE",
-                  "fontFamily": "Geist",
+                  "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
                 },
@@ -6003,7 +6525,7 @@
                   "id": "ke0CP",
                   "fill": "#FF5C00",
                   "content": "About",
-                  "fontFamily": "Geist",
+                  "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "600"
                 },
@@ -6012,7 +6534,7 @@
                   "id": "NRkLk",
                   "fill": "#666666",
                   "content": "Work",
-                  "fontFamily": "Geist",
+                  "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
                 }
@@ -6022,10 +6544,10 @@
               "type": "frame",
               "id": "W3iwY",
               "name": "aNavBtn",
+              "fill": "#FF5C00",
               "cornerRadius": 9999,
               "stroke": {
-                "thickness": 1,
-                "fill": "#F3F4F6"
+                "thickness": 0
               },
               "padding": [
                 8,
@@ -6035,11 +6557,11 @@
                 {
                   "type": "text",
                   "id": "vXqcl",
-                  "fill": "#1A1A1A",
+                  "fill": "#FFFFFF",
                   "content": "Contact",
-                  "fontFamily": "Geist",
+                  "fontFamily": "Funnel Sans",
                   "fontSize": 14,
-                  "fontWeight": "normal"
+                  "fontWeight": "500"
                 }
               ]
             }
@@ -6699,6 +7221,137 @@
               ]
             }
           ]
+        },
+        {
+          "type": "frame",
+          "id": "vLhY6",
+          "name": "footer6",
+          "width": "fill_container",
+          "fill": "#121212ff",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "2d1Ll",
+              "name": "ftTop",
+              "width": "fill_container",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "iOclx",
+                  "name": "ftLogo",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "wIb64",
+                      "name": "ftLogoT",
+                      "fill": "#ffffffff",
+                      "content": "Aanvikshiki",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "YB3IJ",
+                      "name": "ftTagline",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Structured thinking. Applied AI.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "T80FG",
+                  "name": "ftLinks",
+                  "gap": 64,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "MqE31",
+                      "name": "ftCol1",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Y8wQk",
+                          "name": "ftC1T",
+                          "fill": "#ffffffff",
+                          "content": "Services",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "kCKQ4",
+                          "name": "ftC1L1",
+                          "fill": "#666666",
+                          "content": "Strategic Advisory",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "g8LvR",
+                          "name": "ftC1L2",
+                          "fill": "#666666",
+                          "content": "AI Strategy",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "4J9cJ",
+              "name": "ftCopy",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#333333"
+              },
+              "padding": [
+                16,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BwL0x",
+                  "name": "ftCopyT",
+                  "fill": "#888888",
+                  "content": "© 2026 Aanvikshiki. All rights reserved.",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -6737,10 +7390,9 @@
               "id": "XpiJS",
               "fill": "#1A1A1A",
               "content": "Aanvikshiki",
-              "fontFamily": "Geist",
-              "fontSize": 15,
-              "fontWeight": "600",
-              "letterSpacing": -0.3
+              "fontFamily": "Newsreader",
+              "fontSize": 16,
+              "fontWeight": "600"
             },
             {
               "type": "frame",
@@ -6754,7 +7406,7 @@
                   "id": "Vt5vJ",
                   "fill": "#666666",
                   "content": "Services",
-                  "fontFamily": "Geist",
+                  "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
                 },
@@ -6763,7 +7415,7 @@
                   "id": "41iHO",
                   "fill": "#666666",
                   "content": "Approach",
-                  "fontFamily": "Geist",
+                  "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
                 },
@@ -6772,7 +7424,7 @@
                   "id": "Ya3dH",
                   "fill": "#666666",
                   "content": "EASE",
-                  "fontFamily": "Geist",
+                  "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
                 },
@@ -6781,7 +7433,7 @@
                   "id": "RWtpb",
                   "fill": "#666666",
                   "content": "About",
-                  "fontFamily": "Geist",
+                  "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "normal"
                 },
@@ -6790,7 +7442,7 @@
                   "id": "OaUPn",
                   "fill": "#FF5C00",
                   "content": "Work",
-                  "fontFamily": "Geist",
+                  "fontFamily": "Funnel Sans",
                   "fontSize": 14,
                   "fontWeight": "600"
                 }
@@ -6800,10 +7452,10 @@
               "type": "frame",
               "id": "OhlrI",
               "name": "wNavBtn",
+              "fill": "#FF5C00",
               "cornerRadius": 9999,
               "stroke": {
-                "thickness": 1,
-                "fill": "#F3F4F6"
+                "thickness": 0
               },
               "padding": [
                 8,
@@ -6813,11 +7465,11 @@
                 {
                   "type": "text",
                   "id": "JRoJP",
-                  "fill": "#1A1A1A",
+                  "fill": "#FFFFFF",
                   "content": "Contact",
-                  "fontFamily": "Geist",
+                  "fontFamily": "Funnel Sans",
                   "fontSize": 14,
-                  "fontWeight": "normal"
+                  "fontWeight": "500"
                 }
               ]
             }
@@ -7634,17 +8286,3744 @@
               ]
             }
           ]
+        },
+        {
+          "type": "frame",
+          "id": "80vU7",
+          "name": "footer7",
+          "width": "fill_container",
+          "fill": "#121212ff",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "yklKF",
+              "name": "ftTop",
+              "width": "fill_container",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "8zxsb",
+                  "name": "ftLogo",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Wn2Pa",
+                      "name": "ftLogoT",
+                      "fill": "#ffffffff",
+                      "content": "Aanvikshiki",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AyAh0",
+                      "name": "ftTagline",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Structured thinking. Applied AI.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KvAKc",
+                  "name": "ftLinks",
+                  "gap": 64,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "4teDM",
+                      "name": "ftCol1",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "NP2cw",
+                          "name": "ftC1T",
+                          "fill": "#ffffffff",
+                          "content": "Services",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "ZP0f1",
+                          "name": "ftC1L1",
+                          "fill": "#666666",
+                          "content": "Strategic Advisory",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "HilVK",
+                          "name": "ftC1L2",
+                          "fill": "#666666",
+                          "content": "AI Strategy",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lQaSc",
+              "name": "ftCopy",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#333333"
+              },
+              "padding": [
+                16,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rfjWC",
+                  "name": "ftCopyT",
+                  "fill": "#888888",
+                  "content": "© 2026 Aanvikshiki. All rights reserved.",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "type": "rectangle",
-      "id": "ZwS9W",
-      "x": 5147,
-      "y": 5166,
-      "fill": "#CCCCCC",
-      "width": 15,
-      "height": 15
+      "type": "frame",
+      "id": "TMKhk",
+      "x": 0,
+      "y": 7100,
+      "name": "Mobile — 01 Home",
+      "width": 375,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "R6W1h",
+          "name": "mNav",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#F3F4F6"
+          },
+          "padding": [
+            16,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "QeVyC",
+              "name": "navLogo",
+              "fill": "#1A1A1A",
+              "content": "Aanvikshiki",
+              "fontFamily": "Newsreader",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "icon_font",
+              "id": "DL700",
+              "name": "navHam",
+              "width": 24,
+              "height": 24,
+              "iconFontName": "menu",
+              "iconFontFamily": "lucide",
+              "fill": "#1A1A1A"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pK3q2",
+          "name": "mHero",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Vaflq",
+              "name": "heroEye",
+              "fill": "#FF5C00",
+              "content": "STRUCTURED THINKING. APPLIED AI.",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 11,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "fYbYt",
+              "name": "heroH1",
+              "fill": "#1A1A1A",
+              "content": "Where Structured\nThinking Meets AI.",
+              "lineHeight": 1.15,
+              "fontFamily": "Newsreader",
+              "fontSize": 40,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "lECsU",
+              "name": "heroSub",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "We help organizations make better decisions by combining rigorous analytical frameworks with AI-powered execution. No hype. No shortcuts. Just structured thinking at scale.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "YItUz",
+              "name": "mHeroCtas",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gEAJs",
+                  "name": "mHeroCta1",
+                  "fill": "#FF5C00",
+                  "cornerRadius": 9999,
+                  "padding": [
+                    12,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Vo1P2",
+                      "name": "heroCta1T",
+                      "fill": "#FFFFFF",
+                      "content": "See our work",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Cqt5u",
+                  "name": "mHeroCta2",
+                  "cornerRadius": 9999,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#F3F4F6"
+                  },
+                  "padding": [
+                    12,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Ccpbp",
+                      "name": "heroCta2T",
+                      "fill": "#1A1A1A",
+                      "content": "Our approach →",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "tb0aG",
+              "name": "mHeroImg",
+              "width": "fill_container",
+              "height": 280,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1774853053652.png",
+                "mode": "fill"
+              },
+              "stroke": {
+                "thickness": 1,
+                "fill": "#F3F4F6"
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "R3Ti5",
+          "name": "mHero",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "ExZWS",
+              "name": "heroEye",
+              "fill": "#FF5C00",
+              "content": "STRUCTURED THINKING. APPLIED AI.",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 11,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "fy0m1",
+              "name": "heroH1",
+              "fill": "#1A1A1A",
+              "content": "Where Structured\nThinking Meets AI.",
+              "lineHeight": 1.15,
+              "fontFamily": "Newsreader",
+              "fontSize": 40,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "2nJpS",
+              "name": "heroSub",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "We help organizations make better decisions by combining rigorous analytical frameworks with AI-powered execution. No hype. No shortcuts. Just structured thinking at scale.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "aoCcc",
+              "name": "mHeroCtas",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ar7xS",
+                  "name": "mHeroCta1",
+                  "fill": "#FF5C00",
+                  "cornerRadius": 9999,
+                  "padding": [
+                    12,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AI9Ey",
+                      "name": "heroCta1T",
+                      "fill": "#FFFFFF",
+                      "content": "See our work",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "voZd1",
+                  "name": "mHeroCta2",
+                  "cornerRadius": 9999,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#F3F4F6"
+                  },
+                  "padding": [
+                    12,
+                    24
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GHDAK",
+                      "name": "heroCta2T",
+                      "fill": "#1A1A1A",
+                      "content": "Our approach →",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 15,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "F1ZHU",
+              "name": "mHeroImg",
+              "width": "fill_container",
+              "height": 280,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "./images/generated-1774853101215.png",
+                "mode": "fill"
+              },
+              "stroke": {
+                "thickness": 1,
+                "fill": "#F3F4F6"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "Oflfk",
+      "x": 475,
+      "y": 7100,
+      "name": "Mobile — 02 Services",
+      "width": 375,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "hyZLM",
+          "name": "Mobile Nav",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#F3F4F6"
+          },
+          "padding": [
+            16,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "2ARng",
+              "name": "logo",
+              "fill": "#1A1A1A",
+              "content": "Aanvikshiki",
+              "fontFamily": "Newsreader",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "icon_font",
+              "id": "OtyZP",
+              "name": "hamburger",
+              "width": 24,
+              "height": 24,
+              "iconFontName": "menu",
+              "iconFontFamily": "lucide",
+              "fill": "#1A1A1A"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "3JTQQ",
+          "name": "Header",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#F3F4F6"
+          },
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "5wgr1",
+              "name": "hdrLb",
+              "fill": "#FF5C00",
+              "content": "SERVICES",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 11,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "9VgL6",
+              "name": "hdrH1",
+              "fill": "#1A1A1A",
+              "content": "What we do.",
+              "fontFamily": "Newsreader",
+              "fontSize": 48,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "BmQa9",
+              "name": "hdrSub",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Each engagement is structured to deliver clarity, not just analysis. We work in defined phases with specific outputs at every stage.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "xNqAJ",
+          "name": "Service 01",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#F3F4F6"
+          },
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            32,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "10f1f",
+              "name": "s01Row",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "16Qx1",
+                  "name": "s01num",
+                  "fill": "#FF5C00",
+                  "content": "01",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "3SLgR",
+                  "name": "s01badge",
+                  "fill": "#FFF5F0",
+                  "cornerRadius": 9999,
+                  "padding": [
+                    4,
+                    10
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "24xbW",
+                      "name": "s01bt",
+                      "fill": "#92400E",
+                      "content": "Strategic Advisory",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "O0HIS",
+              "name": "s01t",
+              "fill": "#1A1A1A",
+              "content": "Structured Problem Analysis",
+              "fontFamily": "Newsreader",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "UnfGW",
+              "name": "s01tag",
+              "fill": "#666666",
+              "content": "When the problem is real but the path forward isn't clear.",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "uEOHm",
+              "name": "s01desc",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "We work with leadership teams to define the actual problem — not the presenting symptom. Stakeholder interviews, hypothesis mapping, and constraint analysis to produce a clear decision framework.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "E4J1h",
+          "name": "Service 02",
+          "width": "fill_container",
+          "fill": "#F7F8FA",
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#F3F4F6"
+          },
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            32,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "aC1fr",
+              "name": "s02Row",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "G2Ve6",
+                  "name": "s02num",
+                  "fill": "#FF5C00",
+                  "content": "02",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "xb8ie",
+                  "name": "s02badge",
+                  "fill": "#FFF5F0",
+                  "cornerRadius": 9999,
+                  "padding": [
+                    4,
+                    10
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xUxL9",
+                      "name": "s02bt",
+                      "fill": "#1D4ED8",
+                      "content": "AI Strategy",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "NOCag",
+              "name": "s02t",
+              "fill": "#1A1A1A",
+              "content": "AI Readiness & Integration",
+              "fontFamily": "Newsreader",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "fS7Gc",
+              "name": "s02tag",
+              "fill": "#666666",
+              "content": "When leadership knows AI is important but doesn't know where to start.",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "wENpc",
+              "name": "s02desc",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "We assess your organization's AI readiness and design an integration roadmap. Not a technology audit — a strategic alignment exercise that identifies where AI creates leverage, and where it doesn't.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "odJ24",
+          "name": "Service 03",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#F3F4F6"
+          },
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            32,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "SovkC",
+              "name": "s03Row",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "3kZfd",
+                  "name": "s03num",
+                  "fill": "#FF5C00",
+                  "content": "03",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "GoKxY",
+                  "name": "s03badge",
+                  "fill": "#F7F8FA",
+                  "cornerRadius": 9999,
+                  "padding": [
+                    4,
+                    10
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JIa6S",
+                      "name": "s03bt",
+                      "fill": "#155E75",
+                      "content": "Decision Frameworks",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "8CmE2",
+              "name": "s03t",
+              "fill": "#1A1A1A",
+              "content": "Decision Architecture",
+              "fontFamily": "Newsreader",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "AbfvU",
+              "name": "s03tag",
+              "fill": "#666666",
+              "content": "When decisions are slow, inconsistent, or politically charged.",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "VhjA1",
+              "name": "s03desc",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "We design the decision-making infrastructure: frameworks, roles, and processes that turn difficult decisions into repeatable, defensible ones.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "rE89R",
+          "name": "Service 04",
+          "width": "fill_container",
+          "fill": "#F7F8FA",
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#F3F4F6"
+          },
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            32,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "PSef8",
+              "name": "s04Row",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nspxB",
+                  "name": "s04num",
+                  "fill": "#FF5C00",
+                  "content": "04",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "KZm8u",
+                  "name": "s04badge",
+                  "fill": "#FFF5F0",
+                  "cornerRadius": 9999,
+                  "padding": [
+                    4,
+                    10
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "HKuFP",
+                      "name": "s04bt",
+                      "fill": "#5B21B6",
+                      "content": "Research to Product",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "HLi82",
+              "name": "s04t",
+              "fill": "#1A1A1A",
+              "content": "From Insight to Execution",
+              "fontFamily": "Newsreader",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "Ck1Di",
+              "name": "s04tag",
+              "fill": "#666666",
+              "content": "When the research is done but nothing has changed.",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "Y43x2",
+              "name": "s04desc",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "We bridge the gap between strategic insight and operational reality, translating research findings into actionable product decisions and organizational change.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "sO1l0",
+          "name": "Service 05",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "stroke": {
+            "align": "inside",
+            "thickness": 1,
+            "fill": "#F3F4F6"
+          },
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            32,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ofp2a",
+              "name": "s05Row",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pGSFk",
+                  "name": "s05num",
+                  "fill": "#FF5C00",
+                  "content": "05",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "Bsoye",
+                  "name": "s05badge",
+                  "fill": "#F7F8FA",
+                  "cornerRadius": 9999,
+                  "padding": [
+                    4,
+                    10
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ib0mk",
+                      "name": "s05bt",
+                      "fill": "#065F46",
+                      "content": "Ethical AI Governance",
+                      "fontFamily": "Inter",
+                      "fontSize": 11,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "4np5r",
+              "name": "s05t",
+              "fill": "#1A1A1A",
+              "content": "Responsible AI Implementation",
+              "fontFamily": "Newsreader",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "8bmGt",
+              "name": "s05tag",
+              "fill": "#666666",
+              "content": "When speed creates risk and risk creates liability.",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "7uDpZ",
+              "name": "s05desc",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "We design governance frameworks for AI systems: bias assessment, transparency requirements, accountability structures, and ongoing monitoring protocols.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "YMl4F",
+          "name": "CTA Banner",
+          "width": "fill_container",
+          "fill": "#FF5C00",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "QfyYH",
+              "name": "ctaH",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width",
+              "width": 244,
+              "content": "Not sure which service fits?",
+              "fontFamily": "Newsreader",
+              "fontSize": 32,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "fp5mF",
+              "name": "ctaBtn",
+              "fill": "#1A1A1A",
+              "cornerRadius": 9999,
+              "padding": [
+                12,
+                24
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "D1iHG",
+                  "name": "ctaBtnT",
+                  "fill": "#FFFFFF",
+                  "content": "Start a conversation",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 14,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZocL2",
+          "name": "Footer",
+          "width": "fill_container",
+          "fill": "#121212",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "qEtNi",
+              "name": "ftLogo",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "r1wZi",
+                  "name": "ftLogoT",
+                  "fill": "#FFFFFF",
+                  "content": "Aanvikshiki",
+                  "fontFamily": "Newsreader",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "cxJWb",
+                  "name": "ftTagline",
+                  "fill": "#666666",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Structured thinking. Applied AI.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "3uCKw",
+              "name": "ftLinks",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "skoUT",
+                  "name": "ftLinksT",
+                  "fill": "#FFFFFF",
+                  "content": "Services",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "sCaif",
+                  "name": "ftL1",
+                  "fill": "#666666",
+                  "content": "Strategic Advisory",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "9CHM4",
+                  "name": "ftL2",
+                  "fill": "#666666",
+                  "content": "AI Strategy",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "VETOI",
+              "name": "ftCopy",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#333333"
+              },
+              "padding": [
+                16,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mP4Zw",
+                  "name": "ftCopyT",
+                  "fill": "#888888",
+                  "content": "© 2026 Aanvikshiki. All rights reserved.",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "GMS46",
+      "x": 950,
+      "y": 7100,
+      "name": "Mobile — 03 Approach",
+      "width": 375,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "C1Ohm",
+          "name": "mNav",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#F3F4F6"
+          },
+          "padding": [
+            16,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "xAtyQ",
+              "name": "nlogo",
+              "fill": "#1A1A1A",
+              "content": "Aanvikshiki",
+              "fontFamily": "Newsreader",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "icon_font",
+              "id": "jAkwA",
+              "name": "nicon",
+              "width": 24,
+              "height": 24,
+              "iconFontName": "menu",
+              "iconFontFamily": "lucide",
+              "fill": "#1A1A1A"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "WxyFe",
+          "name": "mHeader",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            40,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "MCd3D",
+              "name": "hlabel",
+              "fill": "#FF5C00",
+              "content": "HOW WE THINK",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 11,
+              "fontWeight": "500",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "mCetZ",
+              "name": "htitle",
+              "fill": "#1A1A1A",
+              "content": "How We Think.",
+              "fontFamily": "Newsreader",
+              "fontSize": 48,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "0Fwh6",
+              "name": "hsub",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Where most thinking stops, we begin. Four disciplines that separate structured reasoning from reactive decision-making.",
+              "lineHeight": 1.6,
+              "fontFamily": "Geist",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "7R659",
+          "name": "mPrinciples",
+          "width": "fill_container",
+          "fill": "#F7F8FA",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#F3F4F6"
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            40,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "2vXDE",
+              "name": "plabel",
+              "fill": "#888888",
+              "content": "GOVERNING PRINCIPLES",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "tFlT5",
+              "name": "mPList",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 14,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ttM72",
+                  "name": "p1",
+                  "fill": "#1A1A1A",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "01 — Every engagement begins with questions, not proposals.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Geist",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "8Ss9N",
+                  "name": "p2",
+                  "fill": "#1A1A1A",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "02 — Complexity is not simplified — it is structured.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Geist",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "RyGmr",
+                  "name": "p3",
+                  "fill": "#1A1A1A",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "03 — We distinguish between the stated problem and the actual problem.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Geist",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "TXctk",
+                  "name": "p4",
+                  "fill": "#1A1A1A",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "04 — Speed of execution follows clarity of thinking.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Geist",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "0enGp",
+                  "name": "p5",
+                  "fill": "#1A1A1A",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "05 — Ethics is embedded at synthesis, not added at the end.",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Geist",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "FKTMa",
+      "x": 1425,
+      "y": 7100,
+      "name": "Mobile — 04 Ease",
+      "width": 375,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "waOSx",
+          "name": "mNav",
+          "width": "fill_container",
+          "height": 56,
+          "fill": "#FFFFFF",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#F3F4F6"
+          },
+          "padding": [
+            0,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "tpb1x",
+              "name": "logo",
+              "fill": "#1A1A1A",
+              "content": "Aanvikshiki",
+              "fontFamily": "Newsreader",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "icon_font",
+              "id": "MOs7O",
+              "name": "hamburger",
+              "width": 24,
+              "height": 24,
+              "iconFontName": "menu",
+              "iconFontFamily": "lucide",
+              "fill": "#1A1A1A"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZI9K6",
+          "name": "mHeader",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ukBQz",
+              "name": "mEaseLabel",
+              "stroke": {
+                "thickness": {
+                  "left": 2
+                },
+                "fill": "#FF5C00"
+              },
+              "padding": [
+                0,
+                0,
+                0,
+                12
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "4kaur",
+                  "name": "easeLabelTxt",
+                  "fill": "#FF5C00",
+                  "content": "Project EASE",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1.5
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "01mwU",
+              "name": "heading",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Empowering Action for Societal Evolution.",
+              "lineHeight": 1.1,
+              "fontFamily": "Newsreader",
+              "fontSize": 36,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "rOOvX",
+              "name": "subtitle",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Intelligence should not be a privilege. Project EASE is Aanvikshiki's commitment to bringing structured AI capabilities to underserved communities — where the need for better decisions is highest and the access to tools is lowest.",
+              "lineHeight": 1.7,
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "4eR45",
+          "name": "mMission",
+          "width": "fill_container",
+          "fill": [
+            "#1A1A1A",
+            {
+              "type": "gradient",
+              "gradientType": "radial",
+              "enabled": true,
+              "rotation": 0,
+              "size": {
+                "width": 0.7,
+                "height": 0.7
+              },
+              "colors": [
+                {
+                  "color": "#FF5C0033",
+                  "position": 0
+                },
+                {
+                  "color": "#FF5C0000",
+                  "position": 1
+                }
+              ],
+              "center": {
+                "x": 0.3,
+                "y": 0.6
+              }
+            }
+          ],
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            64,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "zrT6Z",
+              "name": "missionLabel",
+              "fill": "#FF8533",
+              "content": "MISSION",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "LBMCd",
+              "name": "missionQuote",
+              "fill": "#f8fafc",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Every community deserves systems that help them make better decisions — about health, resources, education, and opportunity.",
+              "lineHeight": 1.2,
+              "fontFamily": "Newsreader",
+              "fontSize": 30,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "FUZts",
+          "name": "mFocus",
+          "width": "fill_container",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#E2E8F0"
+          },
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "61pnX",
+              "name": "mFocusLabel",
+              "stroke": {
+                "thickness": {
+                  "left": 2
+                },
+                "fill": "#FF5C00"
+              },
+              "padding": [
+                0,
+                0,
+                0,
+                12
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ypaJQ",
+                  "name": "focusLabelTxt",
+                  "fill": "#FF5C00",
+                  "content": "Focus Areas",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1.5
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "p2j7x",
+              "name": "mFocusList",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "9fKDz",
+                  "name": "fa1",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#E2E8F0"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AFy2g",
+                      "name": "fa1num",
+                      "fill": "#888888",
+                      "content": "01",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "aDFKZ",
+                      "name": "fa1title",
+                      "fill": "#1A1A1A",
+                      "content": "Healthcare Access",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tSBvI",
+                      "name": "fa1desc",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "AI-assisted triage and care pathway tools for clinics operating without specialist access. Structured decision support where human expertise is scarce.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xIQvR",
+                  "name": "fa2",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#E2E8F0"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "9jwuZ",
+                      "name": "fa2num",
+                      "fill": "#888888",
+                      "content": "02",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "C8iMs",
+                      "name": "fa2title",
+                      "fill": "#1A1A1A",
+                      "content": "Educational Intelligence",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Sf4XM",
+                      "name": "fa2desc",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Adaptive learning tools and outcome prediction systems for schools in resource-constrained environments. Built to close gaps, not widen them.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "GXdHG",
+                  "name": "fa3",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#E2E8F0"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "2W8g0",
+                      "name": "fa3num",
+                      "fill": "#888888",
+                      "content": "03",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "48Nqw",
+                      "name": "fa3title",
+                      "fill": "#1A1A1A",
+                      "content": "Resource Allocation",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "0ZJ80",
+                      "name": "fa3desc",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Data-driven tools for NGOs and social enterprises to allocate resources where impact is highest — turning fragmented field data into structured action.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tkYei",
+                  "name": "fa4",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": [
+                    20,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PHdf2",
+                      "name": "fa4num",
+                      "fill": "#888888",
+                      "content": "04",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 11,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "bK2mr",
+                      "name": "fa4title",
+                      "fill": "#1A1A1A",
+                      "content": "Research Accessibility",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "AERKX",
+                      "name": "fa4desc",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Translating academic AI research into deployable tools for social sector organizations that lack the technical capacity to implement them alone.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "tK8iJ",
+      "x": 1900,
+      "y": 7100,
+      "name": "Mobile — 05 Contact",
+      "width": 375,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "9m5mN",
+          "name": "mNav",
+          "width": "fill_container",
+          "height": 56,
+          "fill": "#ffffff",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#F3F4F6"
+          },
+          "padding": [
+            0,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "FYlZQ",
+              "name": "navLogo",
+              "fill": "#1A1A1A",
+              "content": "Aanvikshiki",
+              "fontFamily": "Newsreader",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "icon_font",
+              "id": "6iCWq",
+              "name": "navHamburger",
+              "width": 24,
+              "height": 24,
+              "iconFontName": "menu",
+              "iconFontFamily": "lucide",
+              "fill": "#1A1A1A"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "77McS",
+          "name": "mHdr",
+          "width": "fill_container",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#F3F4F6"
+          },
+          "layout": "vertical",
+          "gap": 14,
+          "padding": [
+            60,
+            24,
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "atSZp",
+              "name": "hdrLabel",
+              "fill": "#FF5C00",
+              "content": "CONTACT",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "vRLJW",
+              "name": "hdrH1",
+              "fill": "#1A1A1A",
+              "content": "Start Thinking\nDifferently.",
+              "lineHeight": 1.1,
+              "fontFamily": "Newsreader",
+              "fontSize": 40,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "ATcJ0",
+              "name": "hdrSub",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Let's explore how structured thinking can transform your business. Describe what you're navigating — we'll respond with a clear assessment of how we can help, not a sales deck.",
+              "lineHeight": 1.7,
+              "fontFamily": "Geist",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "is5md",
+          "name": "mSteps",
+          "width": "fill_container",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#F3F4F6"
+          },
+          "layout": "vertical",
+          "gap": 28,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Dauq7",
+              "name": "stepsLabel",
+              "fill": "#FF5C00",
+              "content": "WHAT TO EXPECT",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "6Ki2U",
+              "name": "step1",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xKGUh",
+                  "name": "step1num",
+                  "fill": "#888888",
+                  "textGrowth": "fixed-width",
+                  "width": 28,
+                  "content": "01",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "YGf4T",
+                  "name": "step1c",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Yonek",
+                      "name": "step1t",
+                      "fill": "#1A1A1A",
+                      "content": "Initial response",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dwtiD",
+                      "name": "step1d",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "We review your submission and respond within 2 business days with specific questions about the challenge you're navigating.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "zcJJh",
+              "name": "step2",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Lv2Gy",
+                  "name": "step2num",
+                  "fill": "#888888",
+                  "textGrowth": "fixed-width",
+                  "width": 28,
+                  "content": "02",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "RPAvo",
+                  "name": "step2c",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "9cNgR",
+                      "name": "step2t",
+                      "fill": "#1A1A1A",
+                      "content": "Structured conversation",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ps9fU",
+                      "name": "step2d",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "A focused call to understand the problem, the context, and what a good outcome looks like. No presentations — just questions.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "ZQg1B",
+              "name": "step3",
+              "width": "fill_container",
+              "gap": 16,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "7URvy",
+                  "name": "step3num",
+                  "fill": "#888888",
+                  "textGrowth": "fixed-width",
+                  "width": 28,
+                  "content": "03",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "dzkTz",
+                  "name": "step3c",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "PKwoP",
+                      "name": "step3t",
+                      "fill": "#1A1A1A",
+                      "content": "Clear assessment",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PUqQr",
+                      "name": "step3d",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "We provide a written assessment of what we see, how we'd approach it, and what a realistic engagement looks like.",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "PjxpA",
+          "name": "mForm",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "JRCXp",
+              "name": "nameField",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GCPQh",
+                  "name": "nameLabel",
+                  "fill": "#1A1A1A",
+                  "content": "Name",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "6PFNz",
+                  "name": "nameInput",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#ffffff",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#F3F4F6"
+                  },
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AViVd",
+                      "name": "namePlaceholder",
+                      "fill": "#CBD5E1",
+                      "content": "Your name",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hr8EX",
+              "name": "emailField",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "J2hab",
+                  "name": "emailLabel",
+                  "fill": "#1A1A1A",
+                  "content": "Email",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "jKmNS",
+                  "name": "emailInput",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#ffffff",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#F3F4F6"
+                  },
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "oOJ3b",
+                      "name": "emailPlaceholder",
+                      "fill": "#CBD5E1",
+                      "content": "you@organization.com",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "oPski",
+              "name": "orgField",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xJP9R",
+                  "name": "orgLabel",
+                  "fill": "#1A1A1A",
+                  "content": "Organization",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "X4nDK",
+                  "name": "orgInput",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#ffffff",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#F3F4F6"
+                  },
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "sU9pe",
+                      "name": "orgPlaceholder",
+                      "fill": "#CBD5E1",
+                      "content": "Your organization",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "UXzVn",
+              "name": "svcField",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "VuCcW",
+                  "name": "svcLabel",
+                  "fill": "#1A1A1A",
+                  "content": "What are you looking for?",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "mAxTs",
+                  "name": "svcDrop",
+                  "width": "fill_container",
+                  "height": 44,
+                  "fill": "#ffffff",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#F3F4F6"
+                  },
+                  "padding": [
+                    0,
+                    12
+                  ],
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KUSz4",
+                      "name": "svcPlaceholder",
+                      "fill": "#CBD5E1",
+                      "content": "Select a service area",
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "icon_font",
+                      "id": "5TCiT",
+                      "name": "svcChevron",
+                      "width": 16,
+                      "height": 16,
+                      "iconFontName": "chevron-down",
+                      "iconFontFamily": "lucide",
+                      "fill": "#94A3B8"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hohl0",
+              "name": "chalField",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 6,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "5ooJ7",
+                  "name": "chalLabel",
+                  "fill": "#1A1A1A",
+                  "content": "Describe the challenge",
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "frame",
+                  "id": "CTmpo",
+                  "name": "chalArea",
+                  "width": "fill_container",
+                  "height": 140,
+                  "fill": "#ffffff",
+                  "cornerRadius": 6,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#F3F4F6"
+                  },
+                  "layout": "vertical",
+                  "padding": 12,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BMVcZ",
+                      "name": "chalPlaceholder",
+                      "fill": "#CBD5E1",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "What is the organization navigating? What decisions need to improve? What have you already tried?",
+                      "lineHeight": 1.65,
+                      "fontFamily": "Geist",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "cCc5C",
+              "name": "submitBtn",
+              "width": "fill_container",
+              "fill": "#FF5C00",
+              "cornerRadius": 9999,
+              "padding": [
+                14,
+                24
+              ],
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GYZhS",
+                  "name": "submitText",
+                  "fill": "#ffffff",
+                  "content": "Get in Touch",
+                  "fontFamily": "Geist",
+                  "fontSize": 15,
+                  "fontWeight": "600"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "jH1x6",
+              "name": "responseNote",
+              "fill": "#888888",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "We respond to every submission within 2 business days.",
+              "textAlign": "center",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "dSfQv",
+          "name": "mContactInfo",
+          "width": "fill_container",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#F3F4F6"
+          },
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            32,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "tjj82",
+              "name": "ciLabel",
+              "fill": "#FF5C00",
+              "content": "DIRECT CONTACT",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "FCbWG",
+              "name": "ciDesc",
+              "fill": "#666666",
+              "content": "For time-sensitive enquiries:",
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "WU9gU",
+              "name": "ciEmail",
+              "fill": "#1A1A1A",
+              "content": "contact@aanvikshiki.com",
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "600"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SwbRP",
+          "name": "mFooter",
+          "width": "fill_container",
+          "fill": "#121212",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "CBoem",
+              "name": "ftTop",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 8,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "a5pI4",
+                  "name": "ftLogo",
+                  "fill": "#ffffff",
+                  "content": "Aanvikshiki",
+                  "fontFamily": "Newsreader",
+                  "fontSize": 16,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "wjcgW",
+                  "name": "ftTagline",
+                  "fill": "#666666",
+                  "content": "Structured thinking. Applied AI.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "Geist",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "JTjMc",
+              "name": "ftDivider",
+              "width": "fill_container",
+              "height": 1,
+              "fill": "#333333"
+            },
+            {
+              "type": "text",
+              "id": "SaQ9e",
+              "name": "ftCopy",
+              "fill": "#888888",
+              "content": "© 2026 Aanvikshiki. All rights reserved.",
+              "fontFamily": "Geist",
+              "fontSize": 12,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "pXbRv",
+      "x": 2375,
+      "y": 7100,
+      "name": "Mobile — 06 About",
+      "width": 375,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "dPizd",
+          "name": "mNavBar",
+          "width": "fill_container",
+          "height": 56,
+          "fill": "#FFFFFF",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#F3F4F6"
+          },
+          "padding": [
+            0,
+            24
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "2zwzJ",
+              "name": "logo",
+              "fill": "#1A1A1A",
+              "content": "Aanvikshiki",
+              "fontFamily": "Newsreader",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "icon_font",
+              "id": "YEfSM",
+              "name": "hamburger",
+              "width": 24,
+              "height": 24,
+              "iconFontName": "menu",
+              "iconFontFamily": "lucide",
+              "fill": "#1A1A1A"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ec5IS",
+          "name": "mHero",
+          "width": "fill_container",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#F3F4F6"
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "gcBRx",
+              "name": "heroLabel",
+              "fill": "#FF5C00",
+              "content": "ABOUT",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "NZ1NX",
+              "name": "heroH1",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "The Science of Thinking, Reimagined.",
+              "lineHeight": 1.15,
+              "fontFamily": "Newsreader",
+              "fontSize": 36,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "83098",
+              "name": "heroSub",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Aanvikshiki is rooted in the ancient Indian discipline of inquiry and reasoning — Ānvīkṣikī, the science of critical thinking — reinterpreted for modern organizations navigating complexity, uncertainty, and technological change.",
+              "lineHeight": 1.7,
+              "fontFamily": "Geist",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "gkcgn",
+              "name": "mHeroImg",
+              "metadata": {
+                "type": "unsplash",
+                "username": "lexerium",
+                "link": "https://unsplash.com/@lexerium",
+                "author": "Alexander Van Steenberge"
+              },
+              "width": "fill_container",
+              "height": 240,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1642433227562-80d2c2e24d97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ4NTMwODN8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 12,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#F3F4F6"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "7AYOt",
+      "x": 2850,
+      "y": 7100,
+      "name": "Mobile — 07 Work",
+      "width": 375,
+      "fill": "#FFFFFF",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "z4Obm",
+          "name": "mNav",
+          "width": "fill_container",
+          "height": 56,
+          "fill": "#FFFFFF",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#F3F4F6"
+          },
+          "padding": [
+            0,
+            20
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "PZUin",
+              "name": "mlogo",
+              "fill": "#1A1A1A",
+              "content": "Aanvikshiki",
+              "fontFamily": "Newsreader",
+              "fontSize": 16,
+              "fontWeight": "600"
+            },
+            {
+              "type": "icon_font",
+              "id": "QeOwL",
+              "name": "mhamburger",
+              "width": 24,
+              "height": 24,
+              "iconFontName": "menu",
+              "iconFontFamily": "lucide",
+              "fill": "#1A1A1A"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "tQR03",
+          "name": "mWhdr",
+          "width": "fill_container",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#F3F4F6"
+          },
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "dndaG",
+              "name": "mlabel",
+              "fill": "#FF5C00",
+              "content": "WORK",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "2XoYX",
+              "name": "mh1",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Thinking in practice.",
+              "fontFamily": "Newsreader",
+              "fontSize": 36,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "aC9Yx",
+              "name": "msub",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Case studies document specific problems, the thinking we applied, and the outcomes that followed. We do not use projected figures.",
+              "lineHeight": 1.7,
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "zoPls",
+          "name": "mCsIntro",
+          "width": "fill_container",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#F3F4F6"
+          },
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "owLQB",
+              "name": "csMeta",
+              "gap": 12,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Fyfii",
+                  "name": "csNum",
+                  "fill": "#FF5C00",
+                  "content": "01",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 11,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "QVfFv",
+                  "name": "csCat",
+                  "fill": "#FF5C00",
+                  "content": "AI Strategy — Healthcare",
+                  "fontFamily": "Funnel Sans",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "T1CIC",
+              "name": "csTitle",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Strategic Clarity Before Migration: How an Organization Learned What It Had Before Deciding Where to Go",
+              "lineHeight": 1.25,
+              "fontFamily": "Newsreader",
+              "fontSize": 22,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "sYfR6",
+              "name": "csImg",
+              "metadata": {
+                "type": "unsplash",
+                "username": "dashxatami",
+                "link": "https://unsplash.com/@dashxatami",
+                "author": "Dash Khatami"
+              },
+              "width": "fill_container",
+              "height": 200,
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1612168311571-7da34cbcd90a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzQ4NTMwNTJ8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "cornerRadius": 12,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#F3F4F6"
+              }
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "qPPcv",
+          "name": "mObserve",
+          "width": "fill_container",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#F3F4F6"
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "PsVBI",
+              "name": "obsLbl",
+              "fill": "#FF5C00",
+              "content": "Observe",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 1.5
+            },
+            {
+              "type": "text",
+              "id": "Z1G0h",
+              "name": "obsP1",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "A regional healthcare provider needed to migrate its data infrastructure. The mandate was clear. The path was not. Eleven years of incremental system-building had produced 259 SSIS packages spanning 12 source systems — none of them documented.",
+              "lineHeight": 1.7,
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "Cwwgd",
+              "name": "obsP2",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Power BI reports had been built by multiple teams over time, with dependencies tracing back to staging tables that were themselves undocumented. Manual analysis was estimated at 6–8 weeks.",
+              "lineHeight": 1.7,
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "CAbOA",
+              "name": "mFacts",
+              "width": "fill_container",
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "8792Q",
+                  "name": "f1",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#F3F4F6"
+                  },
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": [
+                    10,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "CQUds",
+                      "name": "f1l",
+                      "fill": "#FF5C00",
+                      "content": "The challenge",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "1TfN1",
+                      "name": "f1v",
+                      "fill": "#1A1A1A",
+                      "content": "Migrate without a map",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "zUhSx",
+                  "name": "f2",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#F3F4F6"
+                  },
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": [
+                    10,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "61y9g",
+                      "name": "f2l",
+                      "fill": "#FF5C00",
+                      "content": "Infrastructure scope",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XCeS1",
+                      "name": "f2v",
+                      "fill": "#1A1A1A",
+                      "content": "259 SSIS packages, 12 source systems",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "PpNtn",
+                  "name": "f3",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#F3F4F6"
+                  },
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": [
+                    10,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "juf1m",
+                      "name": "f3l",
+                      "fill": "#FF5C00",
+                      "content": "Documentation",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "9UcP2",
+                      "name": "f3v",
+                      "fill": "#1A1A1A",
+                      "content": "None — no lineage, no dependency graph",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "yY0KR",
+                  "name": "f4",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#F3F4F6"
+                  },
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": [
+                    10,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "I2qDN",
+                      "name": "f4l",
+                      "fill": "#FF5C00",
+                      "content": "BI layer",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "a2hf1",
+                      "name": "f4v",
+                      "fill": "#1A1A1A",
+                      "content": "94 Power BI reports with unresolved dependencies",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4x6E3",
+                  "name": "f5",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 4,
+                  "padding": [
+                    10,
+                    0
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eiNoC",
+                      "name": "f5l",
+                      "fill": "#FF5C00",
+                      "content": "Pre-migration estimate",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "hwjut",
+                      "name": "f5v",
+                      "fill": "#1A1A1A",
+                      "content": "6–8 weeks of manual analysis",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "vpHX9",
+          "name": "mAnalyze",
+          "width": "fill_container",
+          "stroke": {
+            "thickness": {
+              "bottom": 1
+            },
+            "fill": "#F3F4F6"
+          },
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Zhujr",
+              "name": "anaLbl",
+              "fill": "#FF5C00",
+              "content": "Analyze → Synthesize",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 1.5
+            },
+            {
+              "type": "text",
+              "id": "BY6QW",
+              "name": "anaP1",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "An AI agent was deployed against the full package catalog and Power BI metadata store. Rather than documenting the system manually, the agent constructed a directed dependency graph — each package a node, each data relationship an edge.",
+              "lineHeight": 1.7,
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "text",
+              "id": "NsElG",
+              "name": "anaP2",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Column-level lineage was traced from report visuals back to source tables. By the end of Day 4, the organization had a complete strategic picture of its data estate — the first time that had ever been true.",
+              "lineHeight": 1.7,
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "246hA",
+              "name": "mTimeline",
+              "width": "fill_container",
+              "cornerRadius": 8,
+              "stroke": {
+                "thickness": 1,
+                "fill": "#F3F4F6"
+              },
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "eFVFH",
+                  "name": "tlHdr",
+                  "width": "fill_container",
+                  "fill": "#F7F8FA",
+                  "stroke": {
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#F3F4F6"
+                  },
+                  "padding": [
+                    12,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "dQVyD",
+                      "name": "tlHdrT",
+                      "fill": "#888888",
+                      "content": "EXECUTION TIMELINE",
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 2
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "KhcBp",
+                  "name": "tl1",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#F3F4F6"
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "VS5Ew",
+                      "name": "tl1d",
+                      "fill": "#1A1A1A",
+                      "content": "Day 1",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "iBxo6",
+                      "name": "tl1t",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "AI agent deployed against the full SSIS package catalog. Dependency graph seeded from 259 packages.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "9Txga",
+                  "name": "tl2",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#F3F4F6"
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "2dyjV",
+                      "name": "tl2d",
+                      "fill": "#1A1A1A",
+                      "content": "Day 2",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "qF04E",
+                      "name": "tl2t",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Full dependency traversal completed. 2,847 edges mapped. Three circular references flagged.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Yxk7G",
+                  "name": "tl3",
+                  "width": "fill_container",
+                  "stroke": {
+                    "thickness": {
+                      "bottom": 1
+                    },
+                    "fill": "#F3F4F6"
+                  },
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "kvm2O",
+                      "name": "tl3d",
+                      "fill": "#1A1A1A",
+                      "content": "Day 3",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "5iDCn",
+                      "name": "tl3t",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "94 Power BI reports traced to 612 upstream sources. Column-level lineage generated.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pUgfH",
+                  "name": "tl4",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": [
+                    14,
+                    16
+                  ],
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RDQIW",
+                      "name": "tl4d",
+                      "fill": "#1A1A1A",
+                      "content": "Day 4",
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XtUFZ",
+                      "name": "tl4t",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Migration architecture generated from lineage topology. Strategic handoff documentation delivered.",
+                      "lineHeight": 1.6,
+                      "fontFamily": "Geist",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "CxtJv",
+          "name": "mAct",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            48,
+            24
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "5Bsnc",
+              "name": "actLbl",
+              "fill": "#FF5C00",
+              "content": "Act",
+              "fontFamily": "Funnel Sans",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 1.5
+            },
+            {
+              "type": "text",
+              "id": "2EDXh",
+              "name": "actTxt",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Infrastructure analysis was completed in 4 days. The output was a migration architecture derived directly from the dependency graph topology.",
+              "lineHeight": 1.7,
+              "fontFamily": "Geist",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "4ImGH",
+              "name": "mMetrics",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ZQTwA",
+                  "name": "m1",
+                  "width": "fill_container",
+                  "fill": "#F7F8FA",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#F3F4F6"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "9xqUp",
+                      "name": "m1v",
+                      "fill": "#1A1A1A",
+                      "content": "4 days",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OOZUk",
+                      "name": "m1l",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Strategic infrastructure analysis",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "lXFAo",
+                  "name": "m2",
+                  "width": "fill_container",
+                  "fill": "#F7F8FA",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#F3F4F6"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "uZl6y",
+                      "name": "m2v",
+                      "fill": "#1A1A1A",
+                      "content": "259",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "H0PMo",
+                      "name": "m2l",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "SSIS packages parsed",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "1GIiD",
+                  "name": "m3",
+                  "width": "fill_container",
+                  "fill": "#F7F8FA",
+                  "cornerRadius": 8,
+                  "stroke": {
+                    "thickness": 1,
+                    "fill": "#F3F4F6"
+                  },
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "M45la",
+                      "name": "m3v",
+                      "fill": "#1A1A1A",
+                      "content": "2,847",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "lQp76",
+                      "name": "m3l",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Data dependencies identified",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Funnel Sans",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "6l6lE",
+          "name": "mfooter",
+          "width": "fill_container",
+          "fill": "#121212ff",
+          "layout": "vertical",
+          "gap": 40,
+          "padding": 80,
+          "children": [
+            {
+              "type": "frame",
+              "id": "vffkP",
+              "name": "ftTop",
+              "width": "fill_container",
+              "gap": 80,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "weTwl",
+                  "name": "ftLogo",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 8,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "eOKgt",
+                      "name": "ftLogoT",
+                      "fill": "#ffffffff",
+                      "content": "Aanvikshiki",
+                      "fontFamily": "Newsreader",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "SWdY5",
+                      "name": "ftTagline",
+                      "fill": "#666666",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Structured thinking. Applied AI.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Geist",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "U71TH",
+                  "name": "ftLinks",
+                  "gap": 64,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "enCfU",
+                      "name": "ftCol1",
+                      "layout": "vertical",
+                      "gap": 12,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "w14uP",
+                          "name": "ftC1T",
+                          "fill": "#ffffffff",
+                          "content": "Services",
+                          "fontFamily": "Funnel Sans",
+                          "fontSize": 13,
+                          "fontWeight": "600"
+                        },
+                        {
+                          "type": "text",
+                          "id": "kJ9mE",
+                          "name": "ftC1L1",
+                          "fill": "#666666",
+                          "content": "Strategic Advisory",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        },
+                        {
+                          "type": "text",
+                          "id": "koVeL",
+                          "name": "ftC1L2",
+                          "fill": "#666666",
+                          "content": "AI Strategy",
+                          "fontFamily": "Geist",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Pgbdz",
+              "name": "ftCopy",
+              "width": "fill_container",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#333333"
+              },
+              "padding": [
+                16,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zLPlU",
+                  "name": "ftCopyT",
+                  "fill": "#888888",
+                  "content": "© 2026 Aanvikshiki. All rights reserved.",
+                  "fontFamily": "Geist",
+                  "fontSize": 12,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "themes": {

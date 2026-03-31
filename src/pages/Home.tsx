@@ -1,169 +1,938 @@
 import { Link } from "react-router";
-import { ArrowRight } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { HeroSection } from "@/components/sections/HeroSection";
-import { MagicText } from "@/components/sections/MagicText";
-import { ProductsFeature } from "@/components/sections/ProductsFeature";
-import { BentoProof } from "@/components/sections/BentoProof";
-import { Testimonials } from "@/components/sections/Testimonials";
-
-const pillars = [
-  {
-    title: "Strategic Thinking",
-    description:
-      "Develop deeper, structured thinking frameworks that drive long-term decisions. Strategy is not a document — it is a discipline.",
-  },
-  {
-    title: "AI Enablement",
-    description:
-      "Leverage AI not just as a tool, but as an amplifier of human intelligence. The right question is never 'what can AI do?' It is 'what decisions do we need to improve?'",
-  },
-  {
-    title: "Ethical Decision-Making",
-    description:
-      "Embed responsibility and long-term impact into every strategic move. Intelligence without integrity compounds risk.",
-  },
-];
 
 export function Home() {
   return (
-    <main className="pt-16">
-
-      {/* ── 1. Hero ── */}
-      <HeroSection />
-
-      {/* ── 2. Manifesto — dark full-width strip ── */}
+    <main>
+      {/* SECTION 1: Hero */}
       <section
-        className="text-background"
+        className="relative flex items-center"
         style={{
-          background:
-            "radial-gradient(ellipse at 70% 50%, rgba(15,98,254,0.14) 0%, transparent 62%), #1e293b",
+          minHeight: "702px",
+          backgroundImage:
+            "url('/Gemini_Generated_Image_p6mu14p6mu14p6mu.png')",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          borderBottom: "1px solid #F3F4F6",
         }}
       >
-        <div className="max-w-7xl mx-auto px-6 py-20 md:py-28">
-          <p className="text-xs uppercase tracking-widest opacity-40 mb-8">
-            Where Intelligence Meets Intent
+        <div className="w-full flex flex-col gap-8 px-6 py-16 md:px-20 md:py-20">
+          <p
+            style={{
+              fontFamily: "'Funnel Sans', sans-serif",
+              fontSize: "11px",
+              color: "#FF5C00",
+              letterSpacing: "2px",
+              fontWeight: 500,
+            }}
+          >
+            STRUCTURED THINKING. APPLIED AI.
           </p>
-          <p className="text-3xl md:text-4xl lg:text-5xl font-semibold tracking-tight leading-[1.15] max-w-4xl bg-gradient-to-r from-white to-[#a8c8ff] bg-clip-text text-transparent">
-            Modern businesses don't lack data — they lack clarity. Aanvikshiki
-            bridges this gap by aligning AI capabilities with ethical,
-            strategic decision-making.
+
+          {/* H1 + Subtitle: side-by-side on desktop, stacked on mobile */}
+          <div
+            className="flex flex-col gap-6 md:flex-row md:justify-between md:items-stretch"
+            style={{ minHeight: "120px" }}
+          >
+            <h1
+              className="md:max-w-[537px]"
+              style={{
+                fontFamily: "'Newsreader', serif",
+                fontSize: "clamp(36px, 4.5vw, 64px)",
+                fontWeight: 700,
+                color: "#000000",
+                lineHeight: 1.1,
+                whiteSpace: "pre-line",
+              }}
+            >
+              {"Where Structured\nThinking Meets AI."}
+            </h1>
+            <p
+              className="md:w-[230px]"
+              style={{
+                fontFamily: "'Geist', sans-serif",
+                fontSize: "18px",
+                color: "#000000",
+                lineHeight: 1.6,
+              }}
+            >
+              We help organizations make better decisions by combining rigorous
+              analytical frameworks with AI-powered execution. No hype. No
+              shortcuts. Just structured thinking at scale.
+            </p>
+          </div>
+
+          {/* CTAs */}
+          <div className="flex flex-row gap-4 flex-wrap">
+            <Link
+              to="/work"
+              style={{
+                fontFamily: "'Funnel Sans', sans-serif",
+                fontSize: "15px",
+                fontWeight: 500,
+                backgroundColor: "#FF5C00",
+                color: "#fff",
+                borderRadius: "9999px",
+                padding: "12px 24px",
+                textDecoration: "none",
+                display: "inline-block",
+              }}
+            >
+              See our work
+            </Link>
+            <Link
+              to="/approach"
+              style={{
+                fontFamily: "'Funnel Sans', sans-serif",
+                fontSize: "15px",
+                fontWeight: 500,
+                backgroundColor: "transparent",
+                border: "1px solid #000000",
+                color: "#000000",
+                borderRadius: "9999px",
+                padding: "12px 24px",
+                textDecoration: "none",
+                display: "inline-block",
+              }}
+            >
+              Our approach →
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 2: Three Disciplines (WHAT WE DO) */}
+      <section className="bg-white" style={{ borderBottom: "1px solid #F3F4F6" }}>
+        {/* Header */}
+        <div className="px-6 pt-10 pb-5 md:px-20 md:pt-10 md:pb-5">
+          <p
+            style={{
+              fontFamily: "'Funnel Sans', sans-serif",
+              fontSize: "12px",
+              color: "#FF5C00",
+              letterSpacing: "2px",
+            }}
+          >
+            WHAT WE DO
+          </p>
+        </div>
+
+        {/* Row 1: text left, image right */}
+        <div
+          className="flex flex-col gap-8 px-6 py-10 md:flex-row md:gap-20 md:px-20 md:py-20"
+          style={{ borderBottom: "1px solid #F3F4F6" }}
+        >
+          <div className="flex flex-col gap-3 md:flex-1">
+            <span
+              style={{
+                fontFamily: "'Funnel Sans', sans-serif",
+                fontSize: "12px",
+                color: "#888",
+              }}
+            >
+              01
+            </span>
+            <h3
+              style={{
+                fontFamily: "'Newsreader', serif",
+                fontSize: "18px",
+                fontWeight: 600,
+                color: "#1A1A1A",
+              }}
+            >
+              Strategic Intelligence
+            </h3>
+            <p
+              style={{
+                fontFamily: "'Geist', sans-serif",
+                fontSize: "14px",
+                color: "#666",
+                lineHeight: 1.6,
+              }}
+            >
+              We translate complexity into clear, actionable decision frameworks
+              by breaking down intricate problems into structured, comprehensible
+              layers that leadership teams can confidently engage with. Instead
+              of overwhelming stakeholders with fragmented data, we synthesize
+              information into cohesive analyses that reveal patterns,
+              dependencies, risks, and opportunities — enabling decision-makers
+              to see the full picture with clarity and precision.
+            </p>
+          </div>
+          <div
+            className="h-[260px] md:flex-1 md:h-[380px] rounded-xl"
+            style={{
+              backgroundImage:
+                "url('/startae-team-7tXA8xwe4W4-unsplash.jpg')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+          />
+        </div>
+
+        {/* Row 2: image left, text right */}
+        <div
+          className="flex flex-col gap-8 px-6 py-10 md:flex-row md:gap-20 md:px-20 md:py-20"
+          style={{ borderBottom: "1px solid #F3F4F6" }}
+        >
+          <div
+            className="h-[260px] md:h-[380px] md:w-[566px] md:shrink-0 rounded-xl"
+            style={{
+              backgroundImage:
+                "url('/Gemini_Generated_Image_3l6aso3l6aso3l6a.png')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+          />
+          <div className="flex flex-col gap-3 md:flex-1">
+            <span
+              style={{
+                fontFamily: "'Funnel Sans', sans-serif",
+                fontSize: "12px",
+                color: "#888",
+              }}
+            >
+              02
+            </span>
+            <h3
+              style={{
+                fontFamily: "'Newsreader', serif",
+                fontSize: "18px",
+                fontWeight: 600,
+                color: "#1A1A1A",
+              }}
+            >
+              AI Integration
+            </h3>
+            <p
+              style={{
+                fontFamily: "'Geist', sans-serif",
+                fontSize: "14px",
+                color: "#666",
+                lineHeight: 1.6,
+              }}
+            >
+              We embed AI directly into decision-making processes — not as a
+              superficial add-on or a trend-driven gimmick, but as a genuine
+              force multiplier for structured thinking. By combining
+              computational intelligence with clear frameworks and human context,
+              we enable faster, sharper, and more resilient decisions — ensuring
+              that leadership operates with both speed and depth, rather than
+              having to trade one for the other.
+            </p>
+          </div>
+        </div>
+
+        {/* Row 3: text left, image right */}
+        <div className="flex flex-col gap-8 px-6 py-10 md:flex-row md:gap-20 md:px-20 md:py-20">
+          <div className="flex flex-col gap-3 md:flex-1">
+            <span
+              style={{
+                fontFamily: "'Funnel Sans', sans-serif",
+                fontSize: "12px",
+                color: "#888",
+              }}
+            >
+              03
+            </span>
+            <h3
+              style={{
+                fontFamily: "'Newsreader', serif",
+                fontSize: "18px",
+                fontWeight: 600,
+                color: "#1A1A1A",
+              }}
+            >
+              Decision Architecture
+            </h3>
+            <p
+              style={{
+                fontFamily: "'Geist', sans-serif",
+                fontSize: "14px",
+                color: "#666",
+                lineHeight: 1.6,
+              }}
+            >
+              Designing systems and processes that enable consistently better
+              decisions requires more than isolated improvements — it demands a
+              deliberate, end-to-end approach. From defining robust governance
+              frameworks to crafting intuitive workflows, every layer is
+              intentionally designed to reinforce clarity and consistency. By
+              embedding structure into how information flows, organizations can
+              eliminate ambiguity and create repeatable systems that scale.
+            </p>
+          </div>
+          <div
+            className="h-[260px] md:flex-1 md:h-[380px] rounded-xl"
+            style={{
+              backgroundImage:
+                "url('/vitaly-gariev-5txln04Cx7I-unsplash.jpg')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+          />
+        </div>
+      </section>
+
+      {/* SECTION 3: BentoProof */}
+      <section
+        className="bg-[#F7F8FA] px-6 py-10 md:px-20 md:py-20"
+        style={{ borderBottom: "1px solid #F3F4F6" }}
+      >
+        <div className="flex flex-col gap-4">
+          {/* Top row */}
+          <div className="flex flex-col gap-4 md:flex-row">
+            {/* 260% card — narrow, mesh-gradient dark */}
+            <div
+              className="rounded-xl p-8 flex flex-col justify-between md:w-[36%]"
+              style={{
+                background:
+                  "radial-gradient(circle at 0% 110%, #FF5C00 0%, #1A1A1A 45%)",
+                minHeight: "260px",
+              }}
+            >
+              <p
+                style={{
+                  fontFamily: "'Newsreader', serif",
+                  fontSize: "clamp(72px, 8vw, 128px)",
+                  fontWeight: 600,
+                  color: "#FF5C00",
+                  lineHeight: 0.7,
+                  letterSpacing: "-1.4px",
+                }}
+              >
+                260%
+              </p>
+              <p
+                style={{
+                  fontFamily: "'Geist', sans-serif",
+                  fontSize: "18px",
+                  fontWeight: 500,
+                  color: "#FFFFFF",
+                  marginTop: "24px",
+                }}
+              >
+                average return on engagement
+              </p>
+            </div>
+
+            {/* Data Dependencies card — image + dark overlay */}
+            <div
+              className="flex-1 rounded-xl p-8 flex items-center overflow-hidden relative"
+              style={{ minHeight: "251px" }}
+            >
+              <div
+                className="absolute inset-0"
+                style={{
+                  backgroundImage:
+                    "url('https://images.unsplash.com/photo-1743385779347-1549dabf1320?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0')",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                }}
+              />
+              <div className="absolute inset-0" style={{ backgroundColor: "#000000b3" }} />
+              <p
+                className="relative z-10"
+                style={{
+                  fontFamily: "'Newsreader', serif",
+                  fontSize: "clamp(28px, 3.5vw, 45px)",
+                  fontWeight: 600,
+                  color: "#FFFFFF",
+                  lineHeight: 1.04,
+                }}
+              >
+                Data Dependencies Documented with Zero Gaps
+              </p>
+            </div>
+          </div>
+
+          {/* Bottom row */}
+          <div className="flex flex-col gap-4 md:flex-row">
+            {/* 25% card — image + dark overlay */}
+            <div
+              className="flex-1 rounded-xl p-8 flex flex-col justify-center overflow-hidden relative"
+              style={{ minHeight: "251px" }}
+            >
+              <div
+                className="absolute inset-0"
+                style={{
+                  backgroundImage:
+                    "url('https://images.unsplash.com/photo-1773379872257-bde085bc73a5?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0')",
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                }}
+              />
+              <div className="absolute inset-0" style={{ backgroundColor: "#000000b3" }} />
+              <p
+                className="relative z-10"
+                style={{
+                  fontFamily: "'Newsreader', serif",
+                  fontSize: "clamp(52px, 6vw, 88px)",
+                  fontWeight: 400,
+                  color: "#FFFFFF",
+                  lineHeight: 0.7,
+                  letterSpacing: "-1.4px",
+                }}
+              >
+                25%
+              </p>
+              <p
+                className="relative z-10"
+                style={{
+                  fontFamily: "'Geist', sans-serif",
+                  fontSize: "18px",
+                  fontWeight: 600,
+                  color: "#FFFFFF",
+                  marginTop: "20px",
+                }}
+              >
+                faster strategic decisions
+              </p>
+            </div>
+
+            {/* 4 days card — dark */}
+            <div
+              className="flex-1 rounded-xl p-8 flex flex-col justify-between"
+              style={{ backgroundColor: "#1A1A1A", minHeight: "251px" }}
+            >
+              <p
+                style={{
+                  fontFamily: "'Newsreader', serif",
+                  fontSize: "clamp(52px, 8vw, 120px)",
+                  fontWeight: 600,
+                  color: "#FF5C00",
+                  lineHeight: 0.7,
+                  letterSpacing: "-0.6px",
+                }}
+              >
+                4 days
+              </p>
+              <p
+                style={{
+                  fontFamily: "'Geist', sans-serif",
+                  fontSize: "18px",
+                  fontWeight: 500,
+                  color: "#FF5C00",
+                  marginTop: "20px",
+                  lineHeight: 1.3,
+                }}
+              >
+                to map 259 SSIS packages and 2,847 dependencies
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 4: Beliefs (WHAT WE BELIEVE) */}
+      <section
+        className="bg-[#1A1A1A] px-6 py-10 md:px-15 md:py-20"
+        style={{ borderBottom: "1px solid #2E2E2E" }}
+      >
+        <p
+          style={{
+            fontFamily: "'Funnel Sans', sans-serif",
+            fontSize: "11px",
+            color: "#FFFFFF",
+            letterSpacing: "2px",
+            marginBottom: "48px",
+          }}
+        >
+          WHAT WE BELIEVE
+        </p>
+
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-3 md:gap-12">
+          {/* Card 1 */}
+          <div className="flex flex-col gap-4">
+            <h4
+              style={{
+                fontFamily: "'Newsreader', serif",
+                fontSize: "20px",
+                fontWeight: 700,
+                color: "#FFFFFF",
+                lineHeight: 1.3,
+              }}
+            >
+              Clarity beats speed.
+            </h4>
+            <p
+              style={{
+                fontFamily: "'Geist', sans-serif",
+                fontSize: "16px",
+                color: "#d1d1d1",
+                lineHeight: 1.7,
+              }}
+            >
+              Most organizations move fast in the wrong direction. We slow the
+              thinking down before the execution speeds up.
+            </p>
+            <div
+              className="mt-4 rounded-xl w-full"
+              style={{
+                backgroundImage: "url('/4.png')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                aspectRatio: "1 / 1",
+                maxWidth: "408px",
+              }}
+            />
+          </div>
+
+          {/* Card 2 */}
+          <div className="flex flex-col gap-4">
+            <h4
+              style={{
+                fontFamily: "'Newsreader', serif",
+                fontSize: "20px",
+                fontWeight: 700,
+                color: "#FFFFFF",
+                lineHeight: 1.3,
+              }}
+            >
+              Thinking beats reacting.
+            </h4>
+            <p
+              style={{
+                fontFamily: "'Geist', sans-serif",
+                fontSize: "15px",
+                color: "#d1d1d1",
+                lineHeight: 1.7,
+              }}
+            >
+              Reactive organizations mistake activity for progress. Structured
+              thinking creates the conditions for decisions that hold under
+              pressure.
+            </p>
+            <div
+              className="mt-4 rounded-xl w-full"
+              style={{
+                backgroundImage: "url('/2.png')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                aspectRatio: "1 / 1",
+                maxWidth: "408px",
+              }}
+            />
+          </div>
+
+          {/* Card 3 */}
+          <div className="flex flex-col gap-4">
+            <h4
+              style={{
+                fontFamily: "'Newsreader', serif",
+                fontSize: "20px",
+                fontWeight: 700,
+                color: "#FFFFFF",
+                lineHeight: 1.3,
+              }}
+            >
+              Ethics beats short-term gains.
+            </h4>
+            <p
+              style={{
+                fontFamily: "'Geist', sans-serif",
+                fontSize: "15px",
+                color: "#d1d1d1",
+                lineHeight: 1.7,
+              }}
+            >
+              Intelligence without integrity compounds risk. Every framework we
+              build embeds the question: what are the downstream consequences of
+              this decision?
+            </p>
+            <div
+              className="mt-4 rounded-xl w-full"
+              style={{
+                backgroundImage: "url('/3.png')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                aspectRatio: "1 / 1",
+                maxWidth: "408px",
+              }}
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* SECTION 5: About Teaser */}
+      <section
+        className="bg-white flex flex-col gap-10 px-6 py-10 md:flex-row md:items-center md:gap-16 md:px-15 md:py-20"
+        style={{ borderBottom: "1px solid #F3F4F6" }}
+      >
+        <div className="flex-1 flex flex-col gap-5">
+          <p
+            style={{
+              fontFamily: "'Funnel Sans', sans-serif",
+              fontSize: "11px",
+              color: "#888",
+              letterSpacing: "2px",
+            }}
+          >
+            ABOUT
+          </p>
+          <h2
+            style={{
+              fontFamily: "'Newsreader', serif",
+              fontSize: "clamp(32px, 3.5vw, 44px)",
+              fontWeight: 700,
+              color: "#1A1A1A",
+              lineHeight: 1.15,
+            }}
+          >
+            The Science of Thinking, Reimagined.
+          </h2>
+          <p
+            style={{
+              fontFamily: "'Geist', sans-serif",
+              fontSize: "16px",
+              color: "#666",
+              lineHeight: 1.7,
+            }}
+          >
+            Aanvikshiki is rooted in the ancient Indian discipline of inquiry
+            and reasoning — Ānvīkṣikī, the science of critical thinking —
+            reinterpreted for modern organizations navigating complexity,
+            uncertainty, and technological change.
+          </p>
+        </div>
+        <div
+          className="w-full h-[280px] rounded-xl md:w-[560px] md:h-[420px] md:shrink-0"
+          style={{
+            backgroundImage:
+              "url('https://images.unsplash.com/photo-1758876019274-b5b3a459b1cf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixlib=rb-4.1.0&q=80&w=1080')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        />
+      </section>
+
+      {/* SECTION 6: Manifesto */}
+      <section
+        className="relative flex items-center overflow-hidden"
+        style={{ minHeight: "509px" }}
+      >
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage: "url('/manifesto-bg.jpeg')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+          }}
+        />
+        <div
+          className="absolute inset-0"
+          style={{ backgroundColor: "#000000b8" }}
+        />
+        <div
+          className="relative z-10 w-full flex flex-col gap-6 px-6 py-16 md:px-20 md:py-20"
+        >
+          <h2
+            style={{
+              fontFamily: "'Newsreader', serif",
+              fontSize: "clamp(28px, 3.5vw, 40px)",
+              fontWeight: 700,
+              color: "#FFFFFF",
+              lineHeight: 1.2,
+              maxWidth: "960px",
+            }}
+          >
+            We believe the best decisions come from structure, not instinct.
+          </h2>
+          <p
+            style={{
+              fontFamily: "'Geist', sans-serif",
+              fontSize: "16px",
+              color: "#dbdbdb",
+              lineHeight: 1.7,
+              maxWidth: "720px",
+            }}
+          >
+            Most organizations are drowning in data and starving for insight. We
+            apply analytical rigor — the kind used in philosophy, military
+            intelligence, and strategic consulting — to help you navigate
+            complexity with clarity.
           </p>
         </div>
       </section>
 
-      {/* ── 3. Pillars — numbered horizontal rows ── */}
-      <section className="border-b border-border">
-        <div className="max-w-7xl mx-auto px-6 pt-20 pb-4">
-          <p className="text-xs uppercase tracking-widest text-muted-foreground mb-16 border-l-2 border-primary pl-3">
-            Three Disciplines
-          </p>
-        </div>
-        <div className="max-w-7xl mx-auto px-6 pb-20">
-          <div className="divide-y divide-border">
-            {pillars.map((p, i) => (
-              <div
-                key={p.title}
-                className="grid grid-cols-1 lg:grid-cols-12 gap-6 py-12 items-start"
-              >
-                <div className="lg:col-span-1">
-                  <span className="font-mono text-xs text-muted-foreground">
-                    {String(i + 1).padStart(2, "0")}
-                  </span>
-                </div>
-                <div className="lg:col-span-4">
-                  <h3 className="text-2xl font-semibold tracking-tight">{p.title}</h3>
-                </div>
-                <div className="lg:col-span-7">
-                  <p className="text-muted-foreground leading-relaxed max-w-xl">
-                    {p.description}
+      {/* SECTION 7: Contact (inline) */}
+      <section
+        className="bg-white px-6 py-10 md:px-15 md:py-20"
+      >
+        <div className="flex flex-col gap-12 md:flex-row md:gap-16">
+          {/* Left column */}
+          <div className="flex flex-col gap-8 md:flex-1">
+            <p
+              style={{
+                fontFamily: "'Funnel Sans', sans-serif",
+                fontSize: "11px",
+                color: "#FF5C00",
+                letterSpacing: "2px",
+              }}
+            >
+              WHAT TO EXPECT
+            </p>
+            <div className="flex flex-col gap-6">
+              {/* Step 1 */}
+              <div className="flex flex-row gap-5">
+                <span
+                  className="shrink-0"
+                  style={{
+                    fontFamily: "'Funnel Sans', sans-serif",
+                    fontSize: "11px",
+                    color: "#888",
+                    width: "32px",
+                  }}
+                >
+                  01
+                </span>
+                <div className="flex flex-col gap-1">
+                  <p
+                    style={{
+                      fontFamily: "'Geist', sans-serif",
+                      fontSize: "14px",
+                      fontWeight: 600,
+                      color: "#1A1A1A",
+                    }}
+                  >
+                    Initial response
+                  </p>
+                  <p
+                    style={{
+                      fontFamily: "'Geist', sans-serif",
+                      fontSize: "14px",
+                      color: "#666",
+                      lineHeight: 1.65,
+                    }}
+                  >
+                    We review your submission and respond within 2 business days
+                    with specific questions about the challenge you're
+                    navigating.
                   </p>
                 </div>
               </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* ── 4. Philosophy — MagicText scroll reveal ── */}
-      <section className="border-b border-border">
-        <div className="max-w-7xl mx-auto px-6 py-20 md:py-28">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
-            <div>
-              <p className="text-xs uppercase tracking-widest text-muted-foreground mb-6 border-l-2 border-primary pl-3">
-                Philosophy
-              </p>
-              <h2 className="text-4xl lg:text-5xl font-semibold tracking-tight leading-[1.1] mb-6">
-                Human-in-the-Loop
-              </h2>
-              <p className="text-xl text-muted-foreground italic mb-8">
-                AI That Keeps You in Control
-              </p>
-              <p className="text-muted-foreground leading-relaxed max-w-md mb-10">
-                We believe AI should augment, not replace human judgment. Our
-                Human-in-the-Loop approach ensures every AI-generated output
-                receives human review, creativity, and strategic insight — the
-                critical 10% that makes content truly engaging and aligned with
-                your vision.
-              </p>
-              <Button asChild variant="outline">
-                <Link to="/about">
-                  Our Philosophy <ArrowRight className="ml-2 size-4" />
-                </Link>
-              </Button>
+              {/* Step 2 */}
+              <div className="flex flex-row gap-5">
+                <span
+                  className="shrink-0"
+                  style={{
+                    fontFamily: "'Funnel Sans', sans-serif",
+                    fontSize: "11px",
+                    color: "#888",
+                    width: "32px",
+                  }}
+                >
+                  02
+                </span>
+                <div className="flex flex-col gap-1">
+                  <p
+                    style={{
+                      fontFamily: "'Geist', sans-serif",
+                      fontSize: "14px",
+                      fontWeight: 600,
+                      color: "#1A1A1A",
+                    }}
+                  >
+                    Structured conversation
+                  </p>
+                  <p
+                    style={{
+                      fontFamily: "'Geist', sans-serif",
+                      fontSize: "14px",
+                      color: "#666",
+                      lineHeight: 1.65,
+                    }}
+                  >
+                    A focused call to understand the problem, the context, and
+                    what a good outcome looks like. No presentations — just
+                    questions.
+                  </p>
+                </div>
+              </div>
+              {/* Step 3 */}
+              <div className="flex flex-row gap-5">
+                <span
+                  className="shrink-0"
+                  style={{
+                    fontFamily: "'Funnel Sans', sans-serif",
+                    fontSize: "11px",
+                    color: "#888",
+                    width: "32px",
+                  }}
+                >
+                  03
+                </span>
+                <div className="flex flex-col gap-1">
+                  <p
+                    style={{
+                      fontFamily: "'Geist', sans-serif",
+                      fontSize: "14px",
+                      fontWeight: 600,
+                      color: "#1A1A1A",
+                    }}
+                  >
+                    Clear assessment
+                  </p>
+                  <p
+                    style={{
+                      fontFamily: "'Geist', sans-serif",
+                      fontSize: "14px",
+                      color: "#666",
+                      lineHeight: 1.65,
+                    }}
+                  >
+                    We provide a written assessment of what we see, how we'd
+                    approach it, and what a realistic engagement looks like.
+                  </p>
+                </div>
+              </div>
             </div>
-            <div className="lg:pt-4">
-              <MagicText text="AI is a powerful machine tool. We harness its efficiency while preserving the complexity of human language, culture, context, and intention — elements that require human judgment to translate successfully." />
+            {/* Divider */}
+            <div className="h-px bg-[#E2E8F0]" />
+            {/* Direct contact */}
+            <div className="flex flex-col gap-2">
+              <p
+                style={{
+                  fontFamily: "'Funnel Sans', sans-serif",
+                  fontSize: "11px",
+                  color: "#888",
+                  letterSpacing: "2px",
+                }}
+              >
+                DIRECT CONTACT
+              </p>
+              <p
+                style={{
+                  fontFamily: "'Geist', sans-serif",
+                  fontSize: "14px",
+                  color: "#666",
+                }}
+              >
+                For time-sensitive enquiries:
+              </p>
+              <p
+                style={{
+                  fontFamily: "'Geist', sans-serif",
+                  fontSize: "14px",
+                  fontWeight: 600,
+                  color: "#1A1A1A",
+                }}
+              >
+                contact@aanvikshiki.com
+              </p>
             </div>
           </div>
-        </div>
-      </section>
 
-      {/* ── 5. Products — auto-advancing feature carousel ── */}
-      <section className="border-b border-border">
-        <div className="max-w-7xl mx-auto px-6 py-20">
-          <div className="mb-16">
-            <p className="text-xs uppercase tracking-widest text-muted-foreground mb-3 border-l-2 border-primary pl-3">
-              Products
-            </p>
-            <h2 className="text-3xl font-semibold tracking-tight">
-              Intelligence, Built.
-            </h2>
+          {/* Right column: Form */}
+          <div className="md:flex-1">
+            <form className="flex flex-col gap-5">
+              <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+                <input
+                  type="text"
+                  placeholder="Your name"
+                  style={{
+                    border: "1px solid #E2E8F0",
+                    padding: "12px",
+                    borderRadius: 0,
+                    fontSize: "14px",
+                    fontFamily: "'Geist', sans-serif",
+                    outline: "none",
+                  }}
+                />
+                <input
+                  type="email"
+                  placeholder="your@email.com"
+                  style={{
+                    border: "1px solid #E2E8F0",
+                    padding: "12px",
+                    borderRadius: 0,
+                    fontSize: "14px",
+                    fontFamily: "'Geist', sans-serif",
+                    outline: "none",
+                  }}
+                />
+              </div>
+              <input
+                type="text"
+                placeholder="Organisation"
+                style={{
+                  border: "1px solid #E2E8F0",
+                  padding: "12px",
+                  borderRadius: 0,
+                  fontSize: "14px",
+                  fontFamily: "'Geist', sans-serif",
+                  outline: "none",
+                }}
+              />
+              <select
+                defaultValue=""
+                style={{
+                  border: "1px solid #E2E8F0",
+                  padding: "12px",
+                  borderRadius: 0,
+                  fontSize: "14px",
+                  fontFamily: "'Geist', sans-serif",
+                  color: "#666",
+                  outline: "none",
+                  backgroundColor: "#fff",
+                }}
+              >
+                <option value="" disabled>
+                  What are you looking for?
+                </option>
+                <option value="strategy-ai">Strategy &amp; AI Advisory</option>
+                <option value="ai-integration">AI Integration</option>
+                <option value="decision-architecture">
+                  Decision Architecture
+                </option>
+                <option value="research-to-implementation">
+                  Research to Implementation
+                </option>
+                <option value="responsible-ai">Responsible AI</option>
+              </select>
+              <textarea
+                placeholder="Describe the challenge — the more specific, the better"
+                rows={4}
+                style={{
+                  border: "1px solid #E2E8F0",
+                  padding: "12px",
+                  borderRadius: 0,
+                  fontSize: "14px",
+                  fontFamily: "'Geist', sans-serif",
+                  outline: "none",
+                  resize: "vertical",
+                }}
+              />
+              <button
+                type="submit"
+                style={{
+                  width: "100%",
+                  backgroundColor: "#FF5C00",
+                  color: "#fff",
+                  borderRadius: "9999px",
+                  padding: "14px 0",
+                  fontFamily: "'Funnel Sans', sans-serif",
+                  fontSize: "15px",
+                  fontWeight: 600,
+                  cursor: "pointer",
+                  border: "none",
+                }}
+              >
+                Get in Touch
+              </button>
+              <p
+                style={{
+                  textAlign: "center",
+                  fontFamily: "'Geist', sans-serif",
+                  fontSize: "12px",
+                  color: "#888",
+                }}
+              >
+                We respond to every submission within 2 business days.
+              </p>
+            </form>
           </div>
-          <ProductsFeature />
         </div>
       </section>
-
-      <Testimonials />
-
-      {/* ── 6. Proof — bento grid ── */}
-      <BentoProof />
-
-      {/* ── 7. CTA — gradient card close ── */}
-      <section className="py-28 md:py-36 px-4">
-        <div
-          className="max-w-5xl mx-auto flex flex-col items-center justify-center text-center rounded-2xl px-8 md:px-16 py-20 text-white relative overflow-hidden"
-          style={{
-            background: "linear-gradient(160deg, #0F62FE 0%, #0043CE 55%, #001D6C 100%)",
-          }}
-        >
-
-          <h2 className="text-4xl md:text-5xl font-semibold leading-tight max-w-2xl mb-4 bg-gradient-to-r from-white to-[#a8c8ff] text-transparent bg-clip-text">
-            Clarity is a Competitive Advantage.
-          </h2>
-          <p className="text-white/60 mb-10 leading-relaxed max-w-md">
-            If your strategy isn't evolving, it's decaying.
-          </p>
-          <Link
-            to="/contact"
-            className="px-8 py-3 bg-white text-primary font-semibold rounded-full text-sm hover:bg-white/90 transition-colors"
-          >
-            Start a Conversation
-          </Link>
-
-        </div>
-      </section>
-
     </main>
   );
 }

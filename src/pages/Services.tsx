@@ -1,244 +1,393 @@
 import { Link } from "react-router";
-import { ArrowRight, Target, Brain, GitBranch, Rocket, Scale } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
-import { cn } from "@/lib/utils";
-
-const services = [
-  {
-    number: "01",
-    title: "Strategic Advisory",
-    badge: { Icon: Target, bg: "bg-amber-100", text: "text-amber-700" },
-    tagline: "Direction in uncertain environments.",
-    description:
-      "We help leaders define where they are going and why — before they decide how to get there. Most organizations struggling with strategy are not short on data. They are short on structured thinking about what the data means and what it demands.",
-    deliverables: [
-      "Strategic landscape assessment",
-      "Direction-setting workshops",
-      "Decision architecture design",
-      "Competitive positioning analysis",
-      "Long-arc scenario modeling",
-    ],
-    forWhom: "CEOs, executive teams, and boards navigating significant transitions or uncertainty.",
-  },
-  {
-    number: "02",
-    title: "AI Strategy",
-    badge: { Icon: Brain, bg: "bg-blue-100", text: "text-blue-700" },
-    tagline: "AI as an amplifier, not a replacement.",
-    description:
-      "We translate AI capabilities into real business advantage — not by deploying models, but by answering the question that most AI initiatives skip: what decisions are we trying to improve, and how does AI change the quality of those decisions?",
-    deliverables: [
-      "AI readiness assessment",
-      "Use-case prioritization framework",
-      "AI ethics and governance structure",
-      "Implementation roadmap",
-      "AI-human decision interface design",
-    ],
-    inAction: {
-      label: "AI Strategy in action",
-      examples: [
-        {
-          name: "Clinical prediction intelligence",
-          detail:
-            "Worked with a healthcare organization to build a decision support system that surfaces probabilistic risk signals from patient-generated data — giving clinicians structured input rather than replacing clinical judgment.",
-        },
-        {
-          name: "Healthcare data intelligence",
-          detail:
-            "Designed an intelligence layer across fragmented EHR and lab systems to produce care pathway recommendations grounded in population evidence — structured to support, not automate, clinical decisions.",
-        },
-        {
-          name: "Infrastructure strategic clarity",
-          detail:
-            "Helped a healthcare data team achieve strategic clarity on their legacy infrastructure before committing to a migration. AI-powered analysis mapped 259 undocumented packages and 2,847 dependencies in 4 days.",
-        },
-      ],
-    },
-    forWhom: "Organizations deploying AI who want strategic clarity before technical investment.",
-  },
-  {
-    number: "03",
-    title: "Decision Frameworks",
-    badge: { Icon: GitBranch, bg: "bg-cyan-100", text: "text-cyan-700" },
-    tagline: "Consistent, high-quality decisions at scale.",
-    description:
-      "Individual brilliance does not scale. We build structured systems for decision-making that encode judgment, embed ethical guardrails, and produce consistent quality regardless of who is in the room.",
-    deliverables: [
-      "Decision taxonomy and classification",
-      "Structured decision protocol design",
-      "Ethical review framework integration",
-      "Decision quality metrics",
-      "Institutional knowledge capture",
-    ],
-    forWhom:
-      "Organizations where decision quality is inconsistent across teams, leadership levels, or business units.",
-  },
-  {
-    number: "04",
-    title: "Research to Product",
-    badge: { Icon: Rocket, bg: "bg-violet-100", text: "text-violet-700" },
-    tagline: "From academic insight to market-ready intelligence.",
-    description:
-      "Most research stops at the paper. We bridge the gap between validated findings and deployed products — translating AI research into systems that organizations can actually use, measure, and trust.",
-    deliverables: [
-      "Technology readiness assessment",
-      "MVP architecture and development",
-      "Market validation framework",
-      "IP protection and commercialization roadmap",
-      "Research-to-deployment timeline design",
-    ],
-    forWhom: "Research institutions, university spinouts, and enterprises with internal R&D looking to productize AI findings.",
-  },
-  {
-    number: "05",
-    title: "Ethical AI Governance",
-    badge: { Icon: Scale, bg: "bg-emerald-100", text: "text-emerald-700" },
-    tagline: "Accountability built in, not bolted on.",
-    description:
-      "AI systems without governance frameworks are liabilities. We design transparency, accountability, and regulatory alignment into your AI from the start — not as compliance overhead, but as a competitive advantage that builds trust with users, regulators, and boards.",
-    deliverables: [
-      "AI ethics audit and risk assessment",
-      "Bias detection and mitigation protocol",
-      "Explainability framework design",
-      "EU AI Act and NIST AI RMF alignment",
-      "Governance board structure and reporting",
-    ],
-    forWhom: "Organizations deploying AI in regulated industries, or any team that needs to demonstrate accountable AI to stakeholders.",
-  },
-];
 
 export function Services() {
   return (
-    <main className="pt-16">
-      {/* Header */}
-      <section className="border-b border-border">
-        <div className="max-w-7xl mx-auto px-6 py-20">
-          <p className="text-xs uppercase tracking-widest text-muted-foreground mb-4 border-l-2 border-primary pl-3">
-            Services
-          </p>
-          <h1 className="text-4xl md:text-5xl font-semibold tracking-tight mb-6 max-w-2xl leading-tight">
-            What We Do.
-          </h1>
-          <p className="text-muted-foreground max-w-xl leading-relaxed">
-            Five services. One discipline: structured thinking applied to the
-            problems that matter most. We work across strategy, AI, research
-            commercialization, and governance because intelligent organizations
-            need all of these — and they are inseparable.
-          </p>
-        </div>
+    <main>
+      {/* Section 1: Header */}
+      <section
+        className="bg-white px-6 py-10 md:px-20 md:py-20"
+        style={{ borderBottom: "1px solid #F3F4F6" }}
+      >
+        <p
+          style={{
+            fontFamily: "'Funnel Sans', sans-serif",
+            fontSize: "11px",
+            color: "#FF5C00",
+            letterSpacing: "2px",
+            fontWeight: 500,
+            marginBottom: "16px",
+          }}
+        >
+          SERVICES
+        </p>
+        <h1
+          style={{
+            fontFamily: "'Newsreader', serif",
+            fontSize: "clamp(32px, 4vw, 48px)",
+            fontWeight: 700,
+            color: "#1A1A1A",
+            marginBottom: "20px",
+          }}
+        >
+          What we do.
+        </h1>
+        <p
+          style={{
+            fontFamily: "'Geist', sans-serif",
+            fontSize: "16px",
+            color: "#666666",
+            lineHeight: 1.6,
+            maxWidth: "600px",
+          }}
+        >
+          Each engagement is structured to deliver clarity, not just analysis.
+          We work in defined phases with specific outputs at every stage.
+        </p>
       </section>
 
-      {/* Services */}
-      <section>
-        <div className="max-w-7xl mx-auto px-6 py-4">
-          {services.map((service, idx) => (
-            <div
-              key={service.number}
-              className={`border-b border-border py-20 ${idx === 0 ? "pt-20" : ""}`}
-            >
-              <div className="grid grid-cols-1 md:grid-cols-12 gap-10">
-                {/* Left label */}
-                <div className="md:col-span-1">
-                  <span className="text-xs font-mono text-muted-foreground">{service.number}</span>
-                </div>
-
-                {/* Main content */}
-                <div className="md:col-span-11 space-y-8">
-                  <div>
-                    <div className="flex items-center gap-4 mb-2">
-                      <div
-                        className={cn(
-                          "flex h-10 w-10 items-center justify-center rounded-lg shrink-0",
-                          service.badge.bg
-                        )}
-                      >
-                        <service.badge.Icon className={cn("size-5", service.badge.text)} />
-                      </div>
-                      <h2 className="text-3xl font-semibold tracking-tight">{service.title}</h2>
-                    </div>
-                    <p className="text-muted-foreground text-lg italic mb-6 pl-14">{service.tagline}</p>
-                    <p className="text-muted-foreground leading-relaxed max-w-2xl">
-                      {service.description}
-                    </p>
-                  </div>
-
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-                    {/* Deliverables */}
-                    <div>
-                      <p className="text-xs uppercase tracking-widest text-muted-foreground mb-4 border-l-2 border-primary pl-3">
-                        What we deliver
-                      </p>
-                      <ul className="space-y-2">
-                        {service.deliverables.map((d) => (
-                          <li key={d} className="flex items-start gap-2 text-sm">
-                            <span className="text-muted-foreground mt-0.5">—</span>
-                            <span>{d}</span>
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-
-                    {/* For whom */}
-                    <div>
-                      <p className="text-xs uppercase tracking-widest text-muted-foreground mb-4 border-l-2 border-primary pl-3">
-                        Best suited for
-                      </p>
-                      <p className="text-sm text-muted-foreground leading-relaxed">
-                        {service.forWhom}
-                      </p>
-                    </div>
-                  </div>
-
-                  {/* In Action examples (AI Strategy only) */}
-                  {"inAction" in service && service.inAction && (
-                    <div>
-                      <p className="text-xs uppercase tracking-widest text-muted-foreground mb-5 border-l-2 border-primary pl-3">
-                        {service.inAction.label}
-                      </p>
-                      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                        {service.inAction.examples.map((ex) => (
-                          <Card key={ex.name} className="bg-secondary/30">
-                            <CardHeader className="pb-2">
-                              <CardTitle className="text-sm">{ex.name}</CardTitle>
-                            </CardHeader>
-                            <CardContent>
-                              <CardDescription className="leading-relaxed text-xs">
-                                {ex.detail}
-                              </CardDescription>
-                            </CardContent>
-                          </Card>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                </div>
-              </div>
-            </div>
-          ))}
+      {/* Section 2: Service 01 */}
+      <section
+        className="bg-white px-6 py-10 md:px-20 md:py-20 flex flex-col gap-3"
+        style={{ borderBottom: "1px solid #F3F4F6" }}
+      >
+        <div className="flex gap-3 items-center">
+          <span
+            style={{
+              fontFamily: "'Funnel Sans', sans-serif",
+              fontSize: "12px",
+              color: "#FF5C00",
+            }}
+          >
+            01
+          </span>
+          <span
+            style={{
+              fontFamily: "'Funnel Sans', sans-serif",
+              fontSize: "12px",
+              color: "#FF5C00",
+              backgroundColor: "#FFF5F0",
+              borderRadius: "9999px",
+              padding: "4px 12px",
+            }}
+          >
+            STRATEGIC THINKING
+          </span>
         </div>
+        <h2
+          style={{
+            fontFamily: "'Newsreader', serif",
+            fontSize: "22px",
+            fontWeight: 600,
+            color: "#1A1A1A",
+          }}
+        >
+          Structured Problem Analysis
+        </h2>
+        <p
+          style={{
+            fontFamily: "'Funnel Sans', sans-serif",
+            fontSize: "14px",
+            color: "#666666",
+          }}
+        >
+          When the problem is real but the path forward isn't clear.
+        </p>
+        <p
+          style={{
+            fontFamily: "'Geist', sans-serif",
+            fontSize: "14px",
+            color: "#666666",
+            lineHeight: 1.6,
+            maxWidth: "640px",
+          }}
+        >
+          We work with leadership teams to define the actual problem — not the
+          presenting symptom. Stakeholder interviews, hypothesis mapping, and
+          constraint analysis to produce a clear decision framework.
+        </p>
       </section>
 
-      {/* CTA */}
-      <section>
-        <div className="max-w-7xl mx-auto px-6 py-20">
-          <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
-            <div>
-              <h2 className="text-2xl font-semibold tracking-tight mb-2">
-                Not sure which service fits?
-              </h2>
-              <p className="text-muted-foreground max-w-md">
-                Most engagements begin with a conversation about the problem,
-                not a service selection. Tell us what you're navigating.
-              </p>
-            </div>
-            <Button asChild className="shrink-0">
-              <Link to="/contact">
-                Start a conversation <ArrowRight className="ml-2 size-4" />
-              </Link>
-            </Button>
-          </div>
+      {/* Section 3: Service 02 */}
+      <section
+        className="bg-[#F7F8FA] px-6 py-10 md:px-20 md:py-20 flex flex-col gap-3"
+        style={{ borderBottom: "1px solid #F3F4F6" }}
+      >
+        <div className="flex gap-3 items-center">
+          <span
+            style={{
+              fontFamily: "'Funnel Sans', sans-serif",
+              fontSize: "12px",
+              color: "#FF5C00",
+            }}
+          >
+            02
+          </span>
+          <span
+            style={{
+              fontFamily: "'Funnel Sans', sans-serif",
+              fontSize: "12px",
+              color: "#FF5C00",
+              backgroundColor: "#FFF5F0",
+              borderRadius: "9999px",
+              padding: "4px 12px",
+            }}
+          >
+            AI ENABLEMENT
+          </span>
         </div>
+        <h2
+          style={{
+            fontFamily: "'Newsreader', serif",
+            fontSize: "22px",
+            fontWeight: 600,
+            color: "#1A1A1A",
+          }}
+        >
+          AI Readiness &amp; Integration
+        </h2>
+        <p
+          style={{
+            fontFamily: "'Funnel Sans', sans-serif",
+            fontSize: "14px",
+            color: "#666666",
+          }}
+        >
+          When leadership knows AI is important but doesn't know where to start.
+        </p>
+        <p
+          style={{
+            fontFamily: "'Geist', sans-serif",
+            fontSize: "14px",
+            color: "#666666",
+            lineHeight: 1.6,
+            maxWidth: "640px",
+          }}
+        >
+          We assess your organization's AI readiness and design an integration
+          roadmap. Not a technology audit — a strategic alignment exercise that
+          identifies where AI creates leverage, and where it doesn't.
+        </p>
+      </section>
+
+      {/* Section 4: Service 03 */}
+      <section
+        className="bg-white px-6 py-10 md:px-20 md:py-20 flex flex-col gap-3"
+        style={{ borderBottom: "1px solid #F3F4F6" }}
+      >
+        <div className="flex gap-3 items-center">
+          <span
+            style={{
+              fontFamily: "'Funnel Sans', sans-serif",
+              fontSize: "12px",
+              color: "#FF5C00",
+            }}
+          >
+            03
+          </span>
+          <span
+            style={{
+              fontFamily: "'Funnel Sans', sans-serif",
+              fontSize: "12px",
+              color: "#FF5C00",
+              backgroundColor: "#F7F8FA",
+              borderRadius: "9999px",
+              padding: "4px 12px",
+            }}
+          >
+            DECISION DESIGN
+          </span>
+        </div>
+        <h2
+          style={{
+            fontFamily: "'Newsreader', serif",
+            fontSize: "22px",
+            fontWeight: 600,
+            color: "#1A1A1A",
+          }}
+        >
+          Decision Architecture
+        </h2>
+        <p
+          style={{
+            fontFamily: "'Funnel Sans', sans-serif",
+            fontSize: "14px",
+            color: "#666666",
+          }}
+        >
+          When decisions are slow, inconsistent, or politically charged.
+        </p>
+        <p
+          style={{
+            fontFamily: "'Geist', sans-serif",
+            fontSize: "14px",
+            color: "#666666",
+            lineHeight: 1.6,
+            maxWidth: "640px",
+          }}
+        >
+          We design the decision-making infrastructure: frameworks, roles, and
+          processes that turn difficult decisions into repeatable, defensible
+          ones.
+        </p>
+      </section>
+
+      {/* Section 5: Service 04 */}
+      <section
+        className="bg-[#F7F8FA] px-6 py-10 md:px-20 md:py-20 flex flex-col gap-3"
+        style={{ borderBottom: "1px solid #F3F4F6" }}
+      >
+        <div className="flex gap-3 items-center">
+          <span
+            style={{
+              fontFamily: "'Funnel Sans', sans-serif",
+              fontSize: "12px",
+              color: "#FF5C00",
+            }}
+          >
+            04
+          </span>
+          <span
+            style={{
+              fontFamily: "'Funnel Sans', sans-serif",
+              fontSize: "12px",
+              color: "#FF5C00",
+              backgroundColor: "#FFF5F0",
+              borderRadius: "9999px",
+              padding: "4px 12px",
+            }}
+          >
+            EXECUTION
+          </span>
+        </div>
+        <h2
+          style={{
+            fontFamily: "'Newsreader', serif",
+            fontSize: "22px",
+            fontWeight: 600,
+            color: "#1A1A1A",
+          }}
+        >
+          From Insight to Execution
+        </h2>
+        <p
+          style={{
+            fontFamily: "'Funnel Sans', sans-serif",
+            fontSize: "14px",
+            color: "#666666",
+          }}
+        >
+          When the research is done but nothing has changed.
+        </p>
+        <p
+          style={{
+            fontFamily: "'Geist', sans-serif",
+            fontSize: "14px",
+            color: "#666666",
+            lineHeight: 1.6,
+            maxWidth: "640px",
+          }}
+        >
+          We bridge the gap between strategic insight and operational reality,
+          translating research findings into actionable product decisions and
+          organizational change.
+        </p>
+      </section>
+
+      {/* Section 6: Service 05 */}
+      <section
+        className="bg-white px-6 py-10 md:px-20 md:py-20 flex flex-col gap-3"
+        style={{ borderBottom: "1px solid #F3F4F6" }}
+      >
+        <div className="flex gap-3 items-center">
+          <span
+            style={{
+              fontFamily: "'Funnel Sans', sans-serif",
+              fontSize: "12px",
+              color: "#FF5C00",
+            }}
+          >
+            05
+          </span>
+          <span
+            style={{
+              fontFamily: "'Funnel Sans', sans-serif",
+              fontSize: "12px",
+              color: "#FF5C00",
+              backgroundColor: "#F7F8FA",
+              borderRadius: "9999px",
+              padding: "4px 12px",
+            }}
+          >
+            GOVERNANCE
+          </span>
+        </div>
+        <h2
+          style={{
+            fontFamily: "'Newsreader', serif",
+            fontSize: "22px",
+            fontWeight: 600,
+            color: "#1A1A1A",
+          }}
+        >
+          Responsible AI Implementation
+        </h2>
+        <p
+          style={{
+            fontFamily: "'Funnel Sans', sans-serif",
+            fontSize: "14px",
+            color: "#666666",
+          }}
+        >
+          When speed creates risk and risk creates liability.
+        </p>
+        <p
+          style={{
+            fontFamily: "'Geist', sans-serif",
+            fontSize: "14px",
+            color: "#666666",
+            lineHeight: 1.6,
+            maxWidth: "640px",
+          }}
+        >
+          We design governance frameworks for AI systems: bias assessment,
+          transparency requirements, accountability structures, and ongoing
+          monitoring protocols.
+        </p>
+      </section>
+
+      {/* Section 7: CTA Bar */}
+      <section
+        className="flex flex-col gap-6 px-6 py-10 md:flex-row md:items-center md:justify-between md:px-20 md:py-20"
+        style={{ backgroundColor: "#FF5C00" }}
+      >
+        <h2
+          style={{
+            fontFamily: "'Newsreader', serif",
+            fontSize: "clamp(28px, 3.5vw, 48px)",
+            fontWeight: 600,
+            color: "#1A1A1A",
+          }}
+        >
+          Not sure which service fits?
+        </h2>
+        <Link
+          to="/contact"
+          style={{
+            display: "inline-block",
+            backgroundColor: "#1A1A1A",
+            color: "#ffffff",
+            borderRadius: "9999px",
+            padding: "12px 24px",
+            fontFamily: "'Funnel Sans', sans-serif",
+            fontSize: "14px",
+            fontWeight: 500,
+            textDecoration: "none",
+            whiteSpace: "nowrap",
+            alignSelf: "flex-start",
+          }}
+        >
+          Start a conversation
+        </Link>
       </section>
     </main>
   );

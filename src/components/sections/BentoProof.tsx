@@ -48,7 +48,7 @@ export function BentoProof() {
             <p className="text-xs uppercase tracking-widest text-muted-foreground mb-3 border-l-2 border-primary pl-3">
               Work
             </p>
-            <h2 className="text-3xl font-semibold tracking-tight bg-gradient-to-r from-primary to-[#0043CE] bg-clip-text text-transparent">
+            <h2 className="text-3xl font-semibold tracking-tight bg-gradient-to-r from-primary to-[#CC6A00] bg-clip-text text-transparent">
               Thinking in Practice.
             </h2>
           </div>

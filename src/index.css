@@ -39,8 +39,8 @@
   --font-sans: var(--font-family-sans);
   --font-serif: var(--font-family-serif);
   --font-mono: var(--font-family-mono);
-  --font-heading: 'Newsreader', serif;
-  --font-ui: 'Funnel Sans', sans-serif;
+  --font-heading: 'Open Sans', sans-serif;
+  --font-ui: 'Open Sans', sans-serif;
 
   /* ── Radius ── */
   --radius-sm: calc(var(--radius) - 2px);
@@ -56,9 +56,9 @@
 :root {
   color-scheme: light;
 
-  --font-family-sans: 'Geist', sans-serif;
-  --font-family-serif: 'Newsreader', serif;
-  --font-family-mono: 'Funnel Sans', sans-serif;
+  --font-family-sans: 'Open Sans', sans-serif;
+  --font-family-serif: 'Open Sans', sans-serif;
+  --font-family-mono: 'Open Sans', sans-serif;
 
   --background: #FFFFFF;
   --foreground: #1A1A1A;

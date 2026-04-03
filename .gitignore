@@ -27,3 +27,5 @@ build.log
 
 # Pencil internal
 .claude/
+
+.vercel

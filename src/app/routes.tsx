@@ -7,6 +7,7 @@ import { Ease } from "@/pages/Ease";
 import { Contact } from "@/pages/Contact";
 import { About } from "@/pages/About";
 import { Work } from "@/pages/Work";
+import { CaseStudy } from "@/pages/CaseStudy";
 
 export const router = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ export const router = createBrowserRouter([
       { path: "/contact", element: <Contact /> },
       { path: "/about", element: <About /> },
       { path: "/work", element: <Work /> },
+      { path: "/work/:slug", element: <CaseStudy /> },
     ],
   },
 ]);

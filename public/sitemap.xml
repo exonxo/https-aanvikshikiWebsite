@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  SITEMAP — Aanvikshiki
+  ──────────────────────────────────────────────────────────────
+  CMS INTEGRATION POINT:
+  When Sanity is connected, generate this file dynamically using
+  the @sanity/next-sanity or a build-time script:
+
+    import { createClient } from '@sanity/client'
+    const client = createClient({ ... })
+    const slugs = await client.fetch(`*[_type == "caseStudy"].slug.current`)
+    // Write /sitemap.xml with static routes + dynamic case study slugs
+
+  Tools that can auto-generate sitemaps from your CMS:
+    - next-sitemap (if migrating to Next.js)
+    - vite-plugin-sitemap (for this Vite SPA)
+    - A build script in package.json: "postbuild": "node scripts/generate-sitemap.mjs"
+  ──────────────────────────────────────────────────────────────
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Static pages -->
+  <url>
+    <loc>https://aanvikshiki.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://aanvikshiki.com/services</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aanvikshiki.com/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aanvikshiki.com/approach</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aanvikshiki.com/work</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://aanvikshiki.com/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Case study pages (add new slugs here, or auto-generate from CMS) -->
+  <url>
+    <loc>https://aanvikshiki.com/work/healthcare-data-migration</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aanvikshiki.com/work/legal-contract-intelligence</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aanvikshiki.com/work/retail-analytics-transformation</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://aanvikshiki.com/work/financial-compliance-automation</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

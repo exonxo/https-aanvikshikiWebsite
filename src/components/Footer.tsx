@@ -33,7 +33,6 @@ const footerLinks: FooterSection[] = [
       { title: 'About', href: '/about' },
       { title: 'Our Approach', href: '/approach' },
       { title: 'Work', href: '/work' },
-      { title: 'Project EASE', href: '/ease' },
     ],
   },
   {
@@ -81,7 +80,7 @@ export function Footer() {
           <div className="flex flex-col gap-2">
             <span
               style={{
-                fontFamily: "'Newsreader', serif",
+                fontFamily: "'Open Sans', sans-serif",
                 fontSize: '20px',
                 fontWeight: 700,
                 color: '#FFFFFF',
@@ -91,7 +90,7 @@ export function Footer() {
             </span>
             <p
               style={{
-                fontFamily: "'Geist', sans-serif",
+                fontFamily: "'Open Sans', sans-serif",
                 fontSize: '13px',
                 color: '#666666',
                 lineHeight: 1.5,
@@ -101,7 +100,7 @@ export function Footer() {
             </p>
             <p
               style={{
-                fontFamily: "'Geist', sans-serif",
+                fontFamily: "'Open Sans', sans-serif",
                 fontSize: '12px',
                 color: '#444444',
                 marginTop: '24px',
@@ -119,11 +118,11 @@ export function Footer() {
               <div className="mb-10 md:mb-0">
                 <h3
                   style={{
-                    fontFamily: "'Funnel Sans', sans-serif",
+                    fontFamily: "'Open Sans', sans-serif",
                     fontSize: '11px',
                     color: '#888888',
                     letterSpacing: '1.5px',
-                    fontWeight: 500,
+                    fontWeight: 600,
                   }}
                 >
                   {section.label.toUpperCase()}
@@ -138,7 +137,7 @@ export function Footer() {
                           rel={link.external ? 'noopener noreferrer' : undefined}
                           className="inline-flex items-center gap-1.5 transition-colors duration-200"
                           style={{
-                            fontFamily: "'Geist', sans-serif",
+                            fontFamily: "'Open Sans', sans-serif",
                             fontSize: '13px',
                             color: '#666666',
                             textDecoration: 'none',
@@ -158,7 +157,7 @@ export function Footer() {
                           to={link.href}
                           className="inline-flex items-center gap-1.5 transition-colors duration-200"
                           style={{
-                            fontFamily: "'Geist', sans-serif",
+                            fontFamily: "'Open Sans', sans-serif",
                             fontSize: '13px',
                             color: '#666666',
                             textDecoration: 'none',

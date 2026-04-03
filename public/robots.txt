@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Block any future admin or CMS preview routes
+Disallow: /admin/
+Disallow: /studio/
+Disallow: /preview/
+Disallow: /_sanity/
+
+Sitemap: https://aanvikshiki.com/sitemap.xml

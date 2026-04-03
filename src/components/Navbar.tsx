@@ -6,7 +6,6 @@ import { motion, useScroll, useMotionValueEvent } from "motion/react";
 const navLinks = [
   { label: "Services", href: "/services" },
   { label: "Approach", href: "/approach" },
-  { label: "EASE", href: "/ease" },
   { label: "About", href: "/about" },
   { label: "Work", href: "/work" },
 ];
@@ -41,21 +40,21 @@ export function Navbar() {
         left: 0,
         right: 0,
         zIndex: 100,
-        backgroundColor: "rgba(255, 255, 255, 0.92)",
-        borderBottom: "1px solid #F3F4F6",
+        backgroundColor: "rgba(255, 255, 255, 0.95)",
+        borderBottom: "1px solid #f3f4f6",
         backdropFilter: "blur(12px)",
         WebkitBackdropFilter: "blur(12px)",
       }}
     >
       {/* Main bar */}
-      <div className="flex items-center justify-between px-6 py-5 md:px-6 md:py-6">
+      <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-4 md:py-5">
         <Link
           to="/"
           style={{
-            fontFamily: "'Newsreader', serif",
-            fontSize: "16px",
+            fontFamily: "'Open Sans', sans-serif",
+            fontSize: "17px",
             fontWeight: 600,
-            color: "#1A1A1A",
+            color: "#111827",
             textDecoration: "none",
           }}
         >
@@ -71,10 +70,10 @@ export function Navbar() {
                 key={link.href}
                 to={link.href}
                 style={{
-                  fontFamily: "'Funnel Sans', sans-serif",
+                  fontFamily: "'Open Sans', sans-serif",
                   fontSize: "14px",
                   fontWeight: isActive ? 600 : 400,
-                  color: isActive ? "#FF5C00" : "#666666",
+                  color: isActive ? "#111827" : "#6b7280",
                   textDecoration: "none",
                 }}
               >
@@ -84,23 +83,17 @@ export function Navbar() {
           })}
         </nav>
 
-        <div className="flex items-center" style={{ gap: "12px" }}>
-          {/* Desktop contact button */}
+        <div className="flex items-center" style={{ gap: "16px" }}>
+          {/* Desktop CTA button */}
           <Link
             to="/contact"
-            className="hidden md:inline-block"
+            className="hidden md:inline-flex items-center justify-center px-5 py-2.5 rounded-full text-sm font-medium text-white transition-colors"
             style={{
-              fontFamily: "'Funnel Sans', sans-serif",
-              fontSize: "14px",
-              fontWeight: 500,
-              color: "#FFFFFF",
-              backgroundColor: "#FF5C00",
-              borderRadius: "9999px",
-              padding: "10px 20px",
-              textDecoration: "none",
+              fontFamily: "'Open Sans', sans-serif",
+              backgroundColor: "#1A1A1A",
             }}
           >
-            Contact
+            Get in Touch
           </Link>
 
           {/* Hamburger toggle */}
@@ -112,7 +105,7 @@ export function Navbar() {
               background: "none",
               border: "none",
               cursor: "pointer",
-              color: "#1A1A1A",
+              color: "#111827",
               padding: "4px",
             }}
           >
@@ -126,9 +119,9 @@ export function Navbar() {
         <div
           className="md:hidden"
           style={{
-            borderTop: "1px solid #F3F4F6",
+            borderTop: "1px solid #f3f4f6",
             padding: "8px 24px 24px",
-            backgroundColor: "rgba(255, 255, 255, 0.98)",
+            backgroundColor: "rgba(255, 255, 255, 0.99)",
           }}
         >
           {navLinks.map((link) => {
@@ -139,14 +132,14 @@ export function Navbar() {
                 to={link.href}
                 onClick={() => setMenuOpen(false)}
                 style={{
-                  fontFamily: "'Funnel Sans', sans-serif",
+                  fontFamily: "'Open Sans', sans-serif",
                   fontSize: "15px",
                   fontWeight: isActive ? 600 : 400,
-                  color: isActive ? "#FF5C00" : "#1A1A1A",
+                  color: isActive ? "#111827" : "#374151",
                   textDecoration: "none",
                   display: "block",
                   padding: "14px 0",
-                  borderBottom: "1px solid #F3F4F6",
+                  borderBottom: "1px solid #f3f4f6",
                 }}
               >
                 {link.label}
@@ -156,21 +149,16 @@ export function Navbar() {
           <Link
             to="/contact"
             onClick={() => setMenuOpen(false)}
+            className="flex items-center justify-center rounded-full text-sm font-medium text-white transition-colors"
             style={{
-              fontFamily: "'Funnel Sans', sans-serif",
-              fontSize: "14px",
-              fontWeight: 500,
-              color: "#FFFFFF",
-              backgroundColor: "#FF5C00",
-              borderRadius: "9999px",
+              fontFamily: "'Open Sans', sans-serif",
+              backgroundColor: "#1A1A1A",
               padding: "12px 24px",
               textDecoration: "none",
-              display: "block",
               marginTop: "16px",
-              textAlign: "center",
             }}
           >
-            Contact
+            Get in Touch
           </Link>
         </div>
       )}
